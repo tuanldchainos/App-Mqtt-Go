@@ -1,0 +1,61 @@
+[Writable]
+LogLevel = 'DEBUG'
+
+[Service]
+BootTimeout = '30s'
+ClientMonitor = '15s'
+CheckInterval = '10s'
+Host = 'localhost'
+Port = 48095
+Protocol = 'http'
+ReadMaxLimit = 100
+StartupMsg = 'MqttExport Service'
+Timeout = '5s'
+
+[Registry]
+Host = 'localhost'
+Port = 8500
+Type = 'consul'
+
+[Clients]
+  [Clients.CoreData]
+  Protocol = 'http'
+  Host = 'localhost'
+  Port = 48080
+  [Clients.Logging]
+  Protocol = "http"
+  Host = "localhost"
+  Port = 48061
+
+[MessageBus]
+Type = 'zero'
+    [MessageBus.PublishHost]
+        Host = '*'
+        Port = 5564
+        Protocol = 'tcp'
+    [MessageBus.SubscribeHost]
+        Host = 'localhost'
+        Port = 5563
+        Protocol = 'tcp'
+
+[Logging]
+EnableRemote = false
+File = './logs/mqtt-Export.log'
+
+[Binding]
+Type="messagebus"
+SubscribeTopic="events"
+PublishTopic=""
+
+[ApplicationSettings]
+MQTTHost            = "zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com"
+MQTTUser            = "letuan"
+MQTTPass            = "24111998"
+MQTTPort            = "14640"
+MQTTCert            = "./certs/user.client.crt"
+MQTTKey             = "./certs/user.client.key"
+Qos                 = "0"
+KeepAlive           = "3600"
+SkipCertVerify	    = "true"
+PersistOnError	    = "false"
+
