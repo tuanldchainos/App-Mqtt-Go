@@ -13,15 +13,17 @@ import (
 var wg sync.WaitGroup
 
 func StartListeningMqttIncoming(client MQTT.Client, config *MqttConfig) {
-	topiclist := topic.GetTopicList()
+	wg.Add(1)
 	go func() {
+		topiclist := topic.GetTopicList()
 		token := client.Subscribe(topiclist("Request"), byte(config.MqttQos), OnHandleMqttIncomming)
 		if token.Wait() && token.Error() != nil {
 			log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
-			return
 		}
 		log.Info("[Incoming listener] Start incoming data listening.")
+		return
 	}()
+	wg.Wait()
 	select {}
 }
 

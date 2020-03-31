@@ -2,29 +2,29 @@
 LogLevel = 'DEBUG'
 
 [Service]
-BootTimeout = '30s'
-ClientMonitor = '15s'
+BootTimeout = 30000
+ClientMonitor = 15000
 CheckInterval = '10s'
-Host = 'localhost'
+Host = 'mqtt-export'
 Port = 48095
 Protocol = 'http'
 ReadMaxLimit = 100
 StartupMsg = 'Mqtt Export Service'
-Timeout = '5s'
+Timeout = 5000
 
 [Registry]
-Host = 'localhost'
+Host = 'edgex-core-consul'
 Port = 8500
 Type = 'consul'
 
 [Clients]
   [Clients.CoreData]
   Protocol = 'http'
-  Host = 'localhost'
+  Host = 'edgex-core-data'
   Port = 48080
   [Clients.Logging]
   Protocol = "http"
-  Host = "localhost"
+  Host = "edgex-support-logging"
   Port = 48061
 
 [MessageBus]
@@ -34,18 +34,18 @@ Type = 'zero'
         Port = 5564
         Protocol = 'tcp'
     [MessageBus.SubscribeHost]
-        Host = 'localhost'
+        Host = 'edgex-core-data'
         Port = 5563
         Protocol = 'tcp'
 
 [Logging]
-EnableRemote = false
-File = './logs/mqtt-Export.log'
+EnableRemote = true
 
 [Binding]
 Type="messagebus"
 SubscribeTopic="events"
 PublishTopic=""
+
 
 [ApplicationSettings]
 MQTTHost            = "zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com"
