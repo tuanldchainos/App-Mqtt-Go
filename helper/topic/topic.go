@@ -11,7 +11,7 @@ var log logger.LoggingClient
 func SetTopicList() (func(string) string, error) {
 
 	topicLists := map[string]string{
-		"Request":  "RequestToic",
+		"Request":  "RequestTopic",
 		"Response": "ResponseTopic",
 	}
 

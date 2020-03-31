@@ -18,6 +18,8 @@ github.com/edgexfoundry/app-functions-sdk-go v1.0.0 h1:yQGII6kvs4yWsD5aNgxNQAK2d
 github.com/edgexfoundry/app-functions-sdk-go v1.0.0/go.mod h1:EJVQcjWU0cXU71n+bGE69n7C/9JQkGy39PK9RFMNL3Y=
 github.com/edgexfoundry/go-mod-core-contracts v0.1.25 h1:Jl7R+PBqOzWlY7gsU5wkR/3uKZxytqYyXPu+Bu36A3Q=
 github.com/edgexfoundry/go-mod-core-contracts v0.1.25/go.mod h1:1bdaXB48tEwWFJGecFC/Oszy53xcGW6RA6Sw5T9v+9g=
+github.com/edgexfoundry/go-mod-core-contracts v0.1.52 h1:G0IA75r6rf+TYRwzrRVTBfFXO9NAanTBrXdRGmKZW9I=
+github.com/edgexfoundry/go-mod-core-contracts v0.1.52/go.mod h1:5kX5khz4bM5loKPFK2dnR+LBo89p9vgYPbu7Iv1MIhY=
 github.com/edgexfoundry/go-mod-messaging v0.1.11 h1:iMQm6vLHLcu9aBEJzgtTOuyrkYMKLFfpx1yPRQNDTeE=
 github.com/edgexfoundry/go-mod-messaging v0.1.11/go.mod h1:pA8HBYCiLIuqlNjl2zHLLwC6ohl+/okb8Rikfu17TJg=
 github.com/edgexfoundry/go-mod-registry v0.1.11 h1:yPI3T8xLqIR6b7Bp/zOmE/TPhr2ma8w7LTUO8aUKjOU=

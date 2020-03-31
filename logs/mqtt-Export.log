@@ -226,3 +226,88 @@ level=DEBUG ts=2020-03-30T18:37:46.652828544Z app=MqttExport source=cloudMqtt.go
 level=INFO ts=2020-03-30T18:37:46.653845138Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
 level=INFO ts=2020-03-30T18:37:47.494570302Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
 level=INFO ts=2020-03-30T18:37:47.776003929Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-03-31T06:32:37.80637805Z app=MqttExport source=sdk.go:357 msg="Logger successfully initialized"
+level=INFO ts=2020-03-31T06:32:37.807932615Z app=MqttExport source=sdk.go:454 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-03-31T06:32:37.808672022Z app=MqttExport source=sdk.go:382 msg="Clients initialized"
+level=INFO ts=2020-03-31T06:32:37.809402029Z app=MqttExport source=server.go:183 msg="Registering standard routes..."
+level=INFO ts=2020-03-31T06:32:37.809513541Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-03-31T06:32:37.810268868Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-03-31T06:32:37.811972656Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-03-31T06:32:37.812733451Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-03-31T06:32:37.813462313Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-03-31T06:32:37.814110802Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-03-31T06:32:37.8147597Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-03-31T06:32:37.815411345Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-03-31T06:32:37.81605439Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-03-31T06:32:37.816701848Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-03-31T06:32:37.81736097Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-03-31T06:32:37.818015011Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-03-31T06:32:38.777491346Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-03-31T06:34:23.243307009Z app=MqttExport source=sdk.go:357 msg="Logger successfully initialized"
+level=INFO ts=2020-03-31T06:34:23.245342077Z app=MqttExport source=sdk.go:454 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-03-31T06:34:23.246311958Z app=MqttExport source=sdk.go:382 msg="Clients initialized"
+level=INFO ts=2020-03-31T06:34:23.24723766Z app=MqttExport source=server.go:183 msg="Registering standard routes..."
+level=DEBUG ts=2020-03-31T06:34:23.248043542Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-03-31T06:34:23.248725339Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-03-31T06:34:23.247320519Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-03-31T06:34:23.249371216Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-03-31T06:34:23.250658497Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-03-31T06:34:23.251355702Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-03-31T06:34:23.252180659Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-03-31T06:34:23.252853381Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-03-31T06:34:23.253570857Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-03-31T06:34:23.254306818Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-03-31T06:34:23.254965578Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-03-31T06:34:23.255717338Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-03-31T06:34:24.081081362Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-03-31T06:34:57.449686083Z app=MqttExport source=sdk.go:357 msg="Logger successfully initialized"
+level=INFO ts=2020-03-31T06:34:57.451036286Z app=MqttExport source=sdk.go:454 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-03-31T06:34:57.451972414Z app=MqttExport source=sdk.go:382 msg="Clients initialized"
+level=INFO ts=2020-03-31T06:34:57.453257611Z app=MqttExport source=server.go:183 msg="Registering standard routes..."
+level=INFO ts=2020-03-31T06:34:57.45335088Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-03-31T06:34:57.454214514Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-03-31T06:34:57.455925837Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-03-31T06:34:57.45744421Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-03-31T06:34:57.45845908Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-03-31T06:34:57.459326024Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-03-31T06:34:57.460395609Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-03-31T06:34:57.461323166Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-03-31T06:34:57.462031886Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-03-31T06:34:57.462809747Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-03-31T06:34:57.463496488Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-03-31T06:34:57.464322045Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-03-31T06:34:58.346662197Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-03-31T06:36:01.835417078Z app=MqttExport source=sdk.go:357 msg="Logger successfully initialized"
+level=INFO ts=2020-03-31T06:36:01.836835215Z app=MqttExport source=sdk.go:454 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-03-31T06:36:01.837627677Z app=MqttExport source=sdk.go:382 msg="Clients initialized"
+level=INFO ts=2020-03-31T06:36:01.838678822Z app=MqttExport source=server.go:183 msg="Registering standard routes..."
+level=INFO ts=2020-03-31T06:36:01.838765754Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-03-31T06:36:01.839774471Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-03-31T06:36:01.841861447Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-03-31T06:36:01.842706246Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-03-31T06:36:01.84337135Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-03-31T06:36:01.844073174Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-03-31T06:36:01.844812197Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-03-31T06:36:01.845575862Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-03-31T06:36:01.846655813Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-03-31T06:36:01.847327145Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-03-31T06:36:01.848419227Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-03-31T06:36:01.849352888Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-03-31T06:36:02.697077789Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-03-31T06:39:36.075373768Z app=MqttExport source=sdk.go:357 msg="Logger successfully initialized"
+level=INFO ts=2020-03-31T06:39:36.076554276Z app=MqttExport source=sdk.go:454 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-03-31T06:39:36.077527294Z app=MqttExport source=sdk.go:382 msg="Clients initialized"
+level=INFO ts=2020-03-31T06:39:36.078591891Z app=MqttExport source=server.go:183 msg="Registering standard routes..."
+level=INFO ts=2020-03-31T06:39:36.078700242Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-03-31T06:39:36.079585166Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-03-31T06:39:36.081539429Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-03-31T06:39:36.082478751Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-03-31T06:39:36.083543302Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-03-31T06:39:36.084443336Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-03-31T06:39:36.085122437Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-03-31T06:39:36.085874966Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-03-31T06:39:36.086610481Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-03-31T06:39:36.087406892Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-03-31T06:39:36.088361495Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-03-31T06:39:36.089426458Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-03-31T06:39:36.927319296Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
