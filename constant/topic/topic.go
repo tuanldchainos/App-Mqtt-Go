@@ -8,27 +8,19 @@ import (
 
 var log logger.LoggingClient
 
-func SetTopicList() (func(int) string, error) {
+func SetTopicList() (func(string) string, error) {
 
-	topicLists := map[int]string{
-		1: "topictest1",
-		2: "topictest2",
+	topicLists := map[string]string{
+		"Request":  "RequestToic",
+		"Response": "ResponseTopic",
 	}
 
-	return func(key int) string {
+	return func(key string) string {
 		return topicLists[key]
 	}, nil
 }
 
-func GetNumOfTopic(topicList func(int) string) int {
-	for i := 1; ; i++ {
-		if topicList(i) == "" {
-			return i - 1
-		}
-	}
-}
-
-func GetTopicList() func(int) string {
+func GetTopicList() func(string) string {
 	TopicLists, err := SetTopicList()
 	if err != nil {
 		log.Error(fmt.Sprintln("Can not get list of topic!"))

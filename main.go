@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 
-	"App-Mqtt-Go/constant/topic"
 	"App-Mqtt-Go/pkg"
 
 	"github.com/edgexfoundry/app-functions-sdk-go/appcontext"
@@ -39,9 +38,7 @@ func main() {
 		os.Exit(-1)
 	}
 
-	topic := topic.GetTopicList()
-
-	pkg.StartListeningMqttIncoming(client, topic, config)
+	pkg.StartListeningMqttIncoming(client, config)
 	err = edgexSdk.MakeItRun()
 	if err != nil {
 		edgexSdk.LoggingClient.Error("MakeItRun returned error: ", err.Error())
