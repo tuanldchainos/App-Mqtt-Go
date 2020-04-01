@@ -5,28 +5,20 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"App-Mqtt-Go/helper/topic"
+	"App-Mqtt-Go/helper"
 	"App-Mqtt-Go/report"
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 	"github.com/edgexfoundry/go-mod-core-contracts/clients"
 )
 
-//var wg sync.WaitGroup
-
 func StartListeningMqttIncoming(client MQTT.Client, config *MqttConfig) {
-	//wg.Add(1)
-	go func() {
-		topiclist := topic.GetTopicList()
-		token := client.Subscribe(topiclist("Request"), byte(config.MqttQos), OnHandleMqttIncomming)
-		if token.Wait() && token.Error() != nil {
-			log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
-		}
-		log.Info("[Incoming listener] Start incoming data listening.")
-		return
-	}()
-	//wg.Wait()
-	select {}
+	token := client.Subscribe(helper.Resquest_Topic, byte(config.MqttQos), OnHandleMqttIncomming)
+	if token.Wait() && token.Error() != nil {
+		log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
+	}
+	log.Info("[Incoming listener] Start incoming data listening.")
+	return
 }
 
 func OnHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
