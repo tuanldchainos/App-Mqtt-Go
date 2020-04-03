@@ -10,6 +10,8 @@ import (
 	"App-Mqtt-Go/report"
 
 	"github.com/edgexfoundry/go-mod-core-contracts/clients"
+	"github.com/edgexfoundry/go-mod-core-contracts/clients/urlclient/local"
+	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 )
@@ -20,10 +22,10 @@ var wg sync.WaitGroup
 
 var mux sync.Mutex
 
-func StartListeningMqttIncoming(client MQTT.Client, config *MqttConfig, urlList func(string) string) {
+func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
 	wg.Add(2)
 	go func() {
-		token := client.Subscribe(Resquest_Topic, byte(config.MqttQos), OnHandleMqttIncomming)
+		token := client.Subscribe(Resquest_Topic, byte(BasicQosSubcribe), OnHandleMqttIncomming)
 		if token.Wait() && token.Error() != nil {
 			log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
 		}
@@ -35,6 +37,7 @@ func StartListeningMqttIncoming(client MQTT.Client, config *MqttConfig, urlList 
 			select {
 			case MqttRequest := <-requestData:
 				mux.Lock()
+				urlList := GetServiceUrlList(sdk)
 				msg, err := createHttpRequest(MqttRequest, urlList)
 				if err != nil {
 					mqttResponseFail(client, MqttRequest, err.Error())
@@ -77,7 +80,11 @@ func createHttpRequest(req *report.MqttRequest, urlList func(string) string) (st
 	case "Post":
 		res, err := clients.PostJSONRequestWithURL(ctx, httpUrl, req.Body)
 		return res, err
-	//case "Put":
+	case "Put":
+		urlPre := local.New(urlList(req.Service))
+		putReqBody, _ := json.Marshal(req.Body)
+		res, err := clients.PutRequest(ctx, req.Path, putReqBody, urlPre)
+		return res, err
 	default:
 		return "", errors.New("Unknow http method")
 	}
@@ -108,7 +115,7 @@ func mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, ms
 	EdgeXResponse.Body = msg
 
 	Response, _ := json.Marshal(EdgeXResponse)
-	client.Publish(Response_Topic, 0, false, string(Response))
+	client.Publish(Response_Topic, byte(BasicQosPublic), false, string(Response))
 	fmt.Println("Response sending: ", string(Response))
 	wg.Done()
 }
@@ -122,7 +129,7 @@ func mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err s
 	EdgeXResponse.Body = err
 
 	Response, _ := json.Marshal(EdgeXResponse)
-	client.Publish(Response_Topic, 0, false, string(Response))
+	client.Publish(Response_Topic, byte(BasicQosPublic), false, string(Response))
 	fmt.Println("Response sending: ", string(Response))
 	wg.Done()
 }

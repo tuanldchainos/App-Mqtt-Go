@@ -26,8 +26,6 @@ func main() {
 		os.Exit(-1)
 	}
 
-	urlList := pkg.GetServiceUrlList(edgexSdk)
-
 	config, err := pkg.LoadMqttConfig(edgexSdk)
 	if err != nil {
 		edgexSdk.LoggingClient.Error(fmt.Sprintf("Failed to load MQTT configurations: %v\n", err))
@@ -40,7 +38,7 @@ func main() {
 		os.Exit(-1)
 	}
 
-	go pkg.StartListeningMqttIncoming(client, config, urlList)
+	go pkg.StartListeningMqttIncoming(client, edgexSdk)
 	err = edgexSdk.MakeItRun()
 	if err != nil {
 		edgexSdk.LoggingClient.Error("MakeItRun returned error: ", err.Error())
