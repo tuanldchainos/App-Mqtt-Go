@@ -6,7 +6,7 @@ BootTimeout = 30000
 ClientMonitor = 15000
 CheckInterval = '10s'
 Host = 'mqtt-export'
-Port = 48095
+Port = 45000
 Protocol = 'http'
 ReadMaxLimit = 100
 StartupMsg = 'Mqtt Export Service'
@@ -18,14 +18,35 @@ Port = 8500
 Type = 'consul'
 
 [Clients]
+  [Clients.Notifications]
+  Protocol = 'http'
+  Host = 'edgex-support-notifications'
+  Port = 48060
+
+  [Clients.Command]
+  Protocol = 'http'
+  Host = 'edgex-core-command'
+  Port = 48082
+
+  [Clients.Metadata]
+  Protocol = 'http'
+  Host = 'edgex-core-metadata'
+  Port = 48081
+
+  [Clients.Logging]
+  Protocol = 'http'
+  Host = 'edgex-support-logging'
+  Port = 48061
+
   [Clients.CoreData]
   Protocol = 'http'
   Host = 'edgex-core-data'
   Port = 48080
-  [Clients.Logging]
-  Protocol = "http"
-  Host = "edgex-support-logging"
-  Port = 48061
+
+  [Clients.Scheduler]
+  Protocol = 'http'
+  Host = 'edgex-support-scheduler'
+  Port = 48085
 
 [MessageBus]
 Type = 'zero'

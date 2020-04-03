@@ -311,3 +311,841 @@ level=DEBUG ts=2020-03-31T06:39:36.087406892Z app=MqttExport source=cloudMqtt.go
 level=DEBUG ts=2020-03-31T06:39:36.088361495Z app=MqttExport source=cloudMqtt.go:47 msg=false
 level=INFO ts=2020-03-31T06:39:36.089426458Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
 level=INFO ts=2020-03-31T06:39:36.927319296Z app=MqttExport source=handleIncommingData.go:24 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-02T18:45:16.483789322Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T18:45:16.485476949Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T18:45:16.486388987Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T18:45:16.487228728Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T18:45:16.487430849Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T18:45:16.488367418Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T18:45:16.490237932Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T18:45:16.491172571Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T18:45:16.492139679Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T18:45:16.493056053Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T18:45:16.494009295Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T18:45:16.49476211Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T18:45:16.495439507Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T18:45:16.496161601Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T18:45:16.496986056Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T18:45:16.497718002Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T18:45:17.401130035Z app=MqttExport source=handleIncommingData.go:22 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-02T18:46:59.580467273Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T18:46:59.581561881Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T18:46:59.582235699Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T18:46:59.582998843Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T18:46:59.583810655Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T18:46:59.584506518Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T18:46:59.583083321Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T18:46:59.585226347Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T18:46:59.587238225Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T18:46:59.588181248Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T18:46:59.589141316Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T18:46:59.590087163Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T18:46:59.59090502Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T18:46:59.59178448Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T18:46:59.592787956Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T18:46:59.59389042Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T18:47:00.197146106Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T18:47:00.198407167Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T18:47:00.20084893Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T18:47:00.201939634Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T18:47:00.203158504Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T18:47:00.624825509Z app=MqttExport source=handleIncommingData.go:22 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T18:47:14.975865591Z app=MqttExport source=handleIncommingData.go:32 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T18:47:14.9846953Z app=MqttExport source=handleIncommingData.go:51 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T18:47:39.489033085Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-02T18:47:39.497341439Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-02T18:47:41.818014755Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T18:47:41.819119718Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T18:47:41.82004026Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T18:47:41.820888805Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T18:47:41.820949203Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T18:47:41.821696623Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T18:47:41.823156861Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T18:47:41.823822578Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T18:47:41.824497876Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T18:47:41.825148613Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T18:47:41.825846553Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T18:47:41.826518458Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T18:47:41.827212813Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T18:47:41.827848855Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T18:47:41.828640933Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T18:47:41.829311466Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T18:47:43.064955427Z app=MqttExport source=handleIncommingData.go:22 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T18:47:57.509152701Z app=MqttExport source=handleIncommingData.go:32 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T18:47:57.518115609Z app=MqttExport source=handleIncommingData.go:51 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T18:47:57.519319603Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T18:47:57.520460278Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T18:47:57.522784784Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T18:47:57.523944596Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T18:47:57.525649946Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T18:48:24.610821099Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-02T18:48:24.619608348Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-02T18:48:26.645926971Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T18:48:26.64702672Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T18:48:26.647827594Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T18:48:26.648601891Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T18:48:26.648702483Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T18:48:26.649432406Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T18:48:26.650865253Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T18:48:26.651662401Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T18:48:26.652373517Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T18:48:26.653093369Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T18:48:26.653813063Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T18:48:26.654654844Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T18:48:26.65534583Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T18:48:26.655994477Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T18:48:26.656700577Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T18:48:26.657470704Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T18:48:27.23626718Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T18:48:27.238151129Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T18:48:27.239563236Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T18:48:27.240461509Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T18:48:27.241421699Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T18:48:27.698407562Z app=MqttExport source=handleIncommingData.go:22 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T18:48:38.409254383Z app=MqttExport source=handleIncommingData.go:32 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T18:48:38.418113182Z app=MqttExport source=handleIncommingData.go:51 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T18:48:44.977851059Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-02T18:48:44.986087215Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-02T19:57:31.226768956Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T19:57:31.227849427Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T19:57:31.228548806Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T19:57:31.229306984Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T19:57:31.22942047Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T19:57:31.23010022Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T19:57:31.231592039Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T19:57:31.232343876Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T19:57:31.233069Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T19:57:31.233829827Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T19:57:31.234518324Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T19:57:31.23519834Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T19:57:31.235876782Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T19:57:31.236641655Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T19:57:31.237332141Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T19:57:31.238024329Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T19:57:31.927482093Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T19:57:31.928934054Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T19:57:31.93111399Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T19:57:31.932222293Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T19:57:31.933527683Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T19:57:32.193508667Z app=MqttExport source=handleIncommingData.go:28 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T19:58:16.183934995Z app=MqttExport source=handleIncommingData.go:54 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T19:58:16.185475046Z app=MqttExport source=handleIncommingData.go:86 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T19:58:16.186892676Z app=MqttExport source=handleIncommingData.go:60 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T19:59:51.095632393Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T19:59:51.096743084Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T19:59:51.097512541Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T19:59:51.098484065Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T19:59:51.099364913Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T19:59:51.100136051Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T19:59:51.098555529Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T19:59:51.100955832Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T19:59:51.102403422Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T19:59:51.103028147Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T19:59:51.103764115Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T19:59:51.10462267Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T19:59:51.105245771Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T19:59:51.10587073Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T19:59:51.106491317Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T19:59:51.107201283Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T19:59:51.681711795Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T19:59:51.683076467Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T19:59:51.685097602Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T19:59:51.686277813Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T19:59:51.687590185Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T19:59:52.116855679Z app=MqttExport source=handleIncommingData.go:28 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T19:59:59.644344136Z app=MqttExport source=handleIncommingData.go:54 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T19:59:59.692550139Z app=MqttExport source=handleIncommingData.go:85 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T19:59:59.693556249Z app=MqttExport source=handleIncommingData.go:60 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:01:48.832195398Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:01:48.83321273Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:01:48.833982923Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:01:48.83464839Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:01:48.834750309Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:01:48.835577669Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:01:48.83697791Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:01:48.837663113Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:01:48.838385287Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:01:48.839067615Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:01:48.839792739Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:01:48.840528518Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:01:48.841275244Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:01:48.842013929Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:01:48.842759986Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:01:48.843534914Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:01:49.9213138Z app=MqttExport source=handleIncommingData.go:28 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:02:01.27784926Z app=MqttExport source=handleIncommingData.go:54 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T20:02:01.286418459Z app=MqttExport source=handleIncommingData.go:85 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T20:02:01.287608431Z app=MqttExport source=handleIncommingData.go:60 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:02:01.289013678Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:03:39.855667559Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:03:39.856659137Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:03:39.857434292Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:03:39.858285738Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:03:39.859067513Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:03:39.859871117Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:03:39.85836815Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:03:39.860560436Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:03:39.861991847Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:03:39.862809664Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:03:39.863526053Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:03:39.86431926Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:03:39.865042025Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:03:39.865834967Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:03:39.866559652Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:03:39.867216383Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:03:40.376997339Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:03:40.378359719Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:03:40.380388947Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:03:40.381629152Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:03:40.383531013Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:03:40.629305374Z app=MqttExport source=handleIncommingData.go:28 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:03:48.998424925Z app=MqttExport source=handleIncommingData.go:55 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T20:03:48.999827387Z app=MqttExport source=handleIncommingData.go:86 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T20:03:49.000956649Z app=MqttExport source=handleIncommingData.go:61 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:05:57.043672436Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:05:57.044697779Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:05:57.045422648Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:05:57.046203869Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:05:57.046284909Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:05:57.047012685Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:05:57.048493801Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:05:57.049308953Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:05:57.050245916Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:05:57.051139478Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:05:57.051866104Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:05:57.052708177Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:05:57.053418117Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:05:57.054126442Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:05:57.054818648Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:05:57.05561834Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:05:57.941736912Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:05:57.950068128Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:05:57.951140243Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:05:57.951939196Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:05:57.953038974Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:05:58.352182044Z app=MqttExport source=handleIncommingData.go:28 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:06:03.849367407Z app=MqttExport source=handleIncommingData.go:54 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T20:06:03.857675876Z app=MqttExport source=handleIncommingData.go:85 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T20:06:03.858521597Z app=MqttExport source=handleIncommingData.go:60 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:07:34.155882817Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:07:34.156936533Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:07:34.157859976Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:07:34.158753276Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:07:34.158945853Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:07:34.159649629Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:07:34.161106132Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:07:34.161795141Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:07:34.16248524Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:07:34.163300536Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:07:34.163992723Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:07:34.164670995Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:07:34.165320821Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:07:34.166153165Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:07:34.166897093Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:07:34.167589928Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:07:34.950991228Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:07:34.952282531Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:07:34.954346028Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:07:34.95540123Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:07:34.956701786Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:07:35.370955431Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:07:44.082654753Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T20:07:44.091598755Z app=MqttExport source=handleIncommingData.go:89 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T20:07:44.093197846Z app=MqttExport source=handleIncommingData.go:64 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:12:07.86614088Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:12:07.867296279Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:12:07.868167032Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:12:07.868904703Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:12:07.868989096Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:12:07.869687088Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:12:07.871131985Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:12:07.872006018Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:12:07.872700452Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:12:07.87339553Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:12:07.874068479Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:12:07.8751193Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:12:07.876019854Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:12:07.876714926Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:12:07.877468653Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:12:07.878280369Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:12:08.415934047Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:12:08.417099592Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:12:08.419157266Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:12:08.420365401Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:12:08.422039357Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:12:08.693938484Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:12:18.69324671Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-02T20:12:18.701794157Z app=MqttExport source=handleIncommingData.go:89 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-02T20:12:18.703007271Z app=MqttExport source=handleIncommingData.go:64 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:14:35.015800796Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:14:35.016652247Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:14:35.017409076Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:14:35.018067644Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:14:35.018167509Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:14:35.018789536Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:14:35.020262969Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:14:35.021057193Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:14:35.021753763Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:14:35.022439858Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:14:35.023154476Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:14:35.024034998Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:14:35.02480414Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:14:35.025480919Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:14:35.026191806Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:14:35.02725688Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:14:35.542262169Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:14:35.543579809Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:14:35.545916419Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:14:35.54723678Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:14:35.548785306Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:14:35.794807364Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:14:43.930148574Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=WARN ts=2020-04-02T20:14:43.93888177Z app=MqttExport source=handleIncommingData.go:89 msg="[Incoming listener] Incoming reading ignored. No Id found : msg=map[Body: Method:Get Path:/api/v1/ping Service:CoreData]"
+level=INFO ts=2020-04-02T20:14:43.940023464Z app=MqttExport source=handleIncommingData.go:64 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-02T20:16:07.644872282Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:16:07.645959835Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:16:07.646715812Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:16:07.647552689Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:16:07.648389112Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:16:07.649060028Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:16:07.647612874Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:16:07.649811098Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:16:07.651254722Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:16:07.652083459Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:16:07.652767592Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:16:07.653417001Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:16:07.654163377Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:16:07.654830339Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:16:07.655545867Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:16:07.656289362Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:16:08.162638899Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:16:08.164003758Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:16:08.166259098Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:16:08.167403869Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:16:08.168905081Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:16:08.413263471Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:16:14.116401975Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:17:36.747095316Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:17:36.74815866Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:17:36.74892437Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:17:36.749747097Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:17:36.749803725Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:17:36.750482889Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:17:36.751916778Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:17:36.7525478Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:17:36.753169074Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:17:36.753963375Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:17:36.754779246Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:17:36.755510287Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:17:36.756509555Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:17:36.757363919Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:17:36.758031395Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:17:36.758818618Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:17:37.293811166Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:17:37.295236494Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:17:37.29735701Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:17:37.298529412Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:17:37.300381942Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:17:37.630335689Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:17:44.359675265Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:18:50.278634901Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:18:50.279634395Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:18:50.280309493Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:18:50.281054763Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:18:50.281824813Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:18:50.282483063Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:18:50.281162562Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:18:50.283215797Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:18:50.284586053Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:18:50.285266393Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:18:50.285951497Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:18:50.286752252Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:18:50.287383106Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:18:50.288012078Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:18:50.288632966Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:18:50.289341026Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:18:50.805752944Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:18:50.807153257Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:18:50.809235974Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:18:50.810749033Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:18:50.812160627Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:18:51.065021992Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:19:21.26207893Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:23:03.273002288Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:23:03.273984159Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:23:03.274712327Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:23:03.275501065Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:23:03.276338465Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:23:03.277010127Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:23:03.275599838Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:23:03.27769632Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:23:03.279025063Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:23:03.279843458Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:23:03.280703137Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:23:03.281596108Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:23:03.282296544Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:23:03.282977165Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:23:03.283689728Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:23:03.284471834Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:23:03.802459016Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:23:03.803914004Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:23:03.80609255Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:23:03.807184525Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:23:03.808627892Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:23:04.071519728Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:23:20.35327218Z app=MqttExport source=handleIncommingData.go:56 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:25:18.007555199Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:25:18.00846717Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:25:18.009160974Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:25:18.009956773Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:25:18.010070427Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:25:18.010726945Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:25:18.012086578Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:25:18.012874505Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:25:18.013577905Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:25:18.014275784Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:25:18.014943539Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:25:18.015747967Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:25:18.016428101Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:25:18.017129447Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:25:18.017806903Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:25:18.018571218Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:25:18.538579955Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:25:18.539777488Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:25:18.542053074Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:25:18.543255667Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:25:18.544801759Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:25:18.791610403Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:25:24.468785214Z app=MqttExport source=handleIncommingData.go:56 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:25:45.357929736Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:25:45.359083337Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:25:45.359816008Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:25:45.360607471Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:25:45.360686047Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:25:45.361514757Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:25:45.362840754Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:25:45.363574001Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:25:45.364379316Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:25:45.365129272Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:25:45.365902557Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:25:45.366600661Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:25:45.367483297Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:25:45.368199011Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:25:45.368897021Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:25:45.369596834Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:25:45.876021325Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:25:45.878410679Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:25:45.881798003Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:25:45.883199831Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:25:45.884684709Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:25:46.132355118Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:25:58.991665526Z app=MqttExport source=handleIncommingData.go:56 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:27:27.892237273Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:27:27.893180103Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:27:27.893849786Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:27:27.8945358Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:27:27.897686862Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=INFO ts=2020-04-02T20:27:27.894619909Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:27:27.898457411Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:27:27.899731057Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:27:27.900496043Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:27:27.901179782Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:27:27.901873861Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:27:27.902546862Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:27:27.903354459Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:27:27.904047845Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:27:27.904725588Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:27:27.905364286Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:27:28.418461474Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:27:28.419528886Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:27:28.421342084Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:27:28.422398776Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:27:28.423796804Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:27:28.659129049Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:27:34.871572179Z app=MqttExport source=handleIncommingData.go:56 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:28:02.833799319Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:28:02.834847536Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:28:02.835587927Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:28:02.836311516Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:28:02.837074216Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:28:02.837760265Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:28:02.836407313Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:28:02.838424208Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:28:02.839840854Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:28:02.840803199Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:28:02.841514972Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:28:02.842210607Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:28:02.842904647Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:28:02.843588092Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:28:02.844285462Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:28:02.844990313Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:28:03.388880289Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:28:03.390255892Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:28:03.39236742Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:28:03.393506093Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:28:03.395146124Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:28:03.658549792Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:28:11.195595274Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:29:33.927225233Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:29:33.928130978Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:29:33.9287898Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:29:33.929957865Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-02T20:29:33.93069558Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:29:33.931490617Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-02T20:29:33.930035131Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:29:33.932367019Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:29:33.933769194Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:29:33.934573412Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:29:33.935302928Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:29:33.93608548Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:29:33.93678724Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:29:33.937602366Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:29:33.9382955Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:29:33.938992939Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:29:34.456531043Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:29:34.458880023Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:29:34.46061803Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:29:34.461880474Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:29:34.464918227Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:29:34.713945107Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:29:44.719397071Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:30:28.088310771Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-02T20:30:28.089310903Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-02T20:30:28.090070999Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-02T20:30:28.090875872Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-02T20:30:28.090968681Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-02T20:30:28.091706938Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-02T20:30:28.093084157Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-02T20:30:28.093849607Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-02T20:30:28.094481573Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-02T20:30:28.095121664Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-02T20:30:28.095765428Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-02T20:30:28.09648126Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-02T20:30:28.097104574Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-02T20:30:28.097755068Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-02T20:30:28.098432862Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-02T20:30:28.099198259Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-02T20:30:28.64099599Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-02T20:30:28.642250129Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-02T20:30:28.644446835Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-02T20:30:28.645652246Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-02T20:30:28.646947484Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-02T20:30:28.940762116Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-02T20:30:36.015358487Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-02T20:30:36.021081598Z app=MqttExport source=handleIncommingData.go:116 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T01:32:26.552542734Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T01:32:26.55419981Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T01:36:04.93225784Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:36:04.933277992Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:36:04.934194463Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:36:04.935013232Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T01:36:04.93507845Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:36:04.935835307Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:36:04.937208457Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T01:36:04.938011445Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:36:04.938734296Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:36:04.939491066Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:36:04.940210232Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:36:04.940999981Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:36:04.941677679Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:36:04.942365451Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:36:04.943087578Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:36:04.943980741Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:36:05.461825583Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:36:05.463012155Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:36:05.465174781Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:36:05.466502223Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:36:05.467963917Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :48095"
+level=INFO ts=2020-04-03T01:36:05.729369609Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:37:00.870449943Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T01:37:00.87314328Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T01:49:14.246940777Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T01:49:14.24828024Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T01:49:17.280032419Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:49:17.281048086Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:49:17.282123615Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:49:17.282936408Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T01:49:17.283007089Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:49:17.283785007Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:49:17.285337904Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T01:49:17.286128168Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:49:17.286854781Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:49:17.287572182Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:49:17.288363202Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:49:17.289032369Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:49:17.289821678Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:49:17.290501076Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:49:17.291171602Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:49:17.291904705Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:49:17.842438247Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:49:17.843744101Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:49:17.846075928Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:49:17.847236495Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:49:17.848766158Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:49:18.102409434Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:49:22.860822465Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-03T01:49:22.909206625Z app=MqttExport source=handleIncommingData.go:90 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-03T01:49:22.91010988Z app=MqttExport source=handleIncommingData.go:63 msg="Unrecognize mqtt request\n"
+level=ERROR ts=2020-04-03T01:49:55.138070256Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T01:52:02.382574389Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:52:02.383524182Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:52:02.384186253Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:52:02.384937575Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-03T01:52:02.385885947Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:52:02.386573694Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-03T01:52:02.384997946Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:52:02.387292575Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:52:02.388655921Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:52:02.38928176Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:52:02.390017238Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:52:02.390756082Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:52:02.39163138Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:52:02.392342223Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:52:02.393056904Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:52:02.393757266Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:52:03.117032273Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:52:03.126726103Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:52:03.12878131Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:52:03.129866407Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:52:03.131369187Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:52:03.406252727Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:52:09.896134709Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T01:52:09.906366894Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=ERROR ts=2020-04-03T01:52:18.75821075Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-03T01:52:18.767092864Z app=MqttExport source=handleIncommingData.go:90 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-03T01:52:18.768720234Z app=MqttExport source=handleIncommingData.go:63 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-03T01:53:10.352173003Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:53:10.353096992Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:53:10.353753809Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:53:10.354598834Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T01:53:10.354745552Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:53:10.355659158Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:53:10.357498123Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T01:53:10.358519531Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:53:10.359507635Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:53:10.360423303Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:53:10.361348339Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:53:10.362229237Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:53:10.363094941Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:53:10.363961052Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:53:10.364937121Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:53:10.365787159Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:53:10.934052948Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:53:10.935313553Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:53:10.93757988Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:53:10.938765263Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:53:10.940389905Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:53:11.239592471Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:53:17.258910823Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-03T01:53:17.261274477Z app=MqttExport source=handleIncommingData.go:89 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-03T01:53:17.262386931Z app=MqttExport source=handleIncommingData.go:63 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-03T01:54:56.477371633Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:54:56.47853026Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:54:56.479253662Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:54:56.479973672Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T01:54:56.480061121Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:54:56.480804329Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:54:56.482379499Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T01:54:56.483151395Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:54:56.483832508Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:54:56.484521386Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:54:56.485362483Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:54:56.4862023Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:54:56.486936495Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:54:56.487644417Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:54:56.488356116Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:54:56.488976353Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:54:56.985586797Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:54:56.986851741Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:54:56.98919299Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:54:56.990331003Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:54:56.991624582Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:54:57.232105366Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:55:21.188555028Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T01:55:21.191398731Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T01:57:09.902019509Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T01:57:09.910440317Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T01:57:11.998966491Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:57:11.999920136Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:57:12.000766357Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:57:12.001576329Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-03T01:57:12.002362515Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:57:12.003228134Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-03T01:57:12.001651312Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:57:12.004013144Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:57:12.005300372Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:57:12.006067064Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:57:12.006776873Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:57:12.007513931Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:57:12.008186931Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:57:12.008968292Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:57:12.009828067Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:57:12.010752149Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:57:12.534854892Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:57:12.536105897Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:57:12.538079108Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:57:12.539079718Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:57:12.540248167Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:57:12.797708957Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:57:29.60940974Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T01:57:29.619661582Z app=MqttExport source=handleIncommingData.go:46 msg="Successfully handle request!\n"
+level=ERROR ts=2020-04-03T01:58:08.506549086Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-03T01:58:08.508187562Z app=MqttExport source=handleIncommingData.go:90 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-03T01:58:08.509457276Z app=MqttExport source=handleIncommingData.go:64 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-03T01:59:04.755509243Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T01:59:04.756517203Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T01:59:04.75718294Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T01:59:04.757868454Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T01:59:04.757972434Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T01:59:04.758631996Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T01:59:04.760050627Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T01:59:04.760779477Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T01:59:04.761587492Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T01:59:04.762390762Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T01:59:04.763186488Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T01:59:04.763951058Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T01:59:04.764654228Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T01:59:04.765343557Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T01:59:04.76623107Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T01:59:04.766985634Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T01:59:05.306318614Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T01:59:05.307646177Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T01:59:05.309978528Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T01:59:05.311042408Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T01:59:05.31228476Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T01:59:05.658543891Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T01:59:09.619241347Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=WARN ts=2020-04-03T01:59:09.627833946Z app=MqttExport source=handleIncommingData.go:89 msg="[Incoming listener] Incoming reading ignored. No Method found : msg=map[]"
+level=INFO ts=2020-04-03T01:59:09.62893617Z app=MqttExport source=handleIncommingData.go:63 msg="Unrecognize mqtt request\n"
+level=INFO ts=2020-04-03T01:59:09.63044308Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:03:41.21690305Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T02:03:41.218513704Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T02:03:44.088175249Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T02:03:44.089159236Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T02:03:44.090008347Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T02:03:44.090810787Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T02:03:44.090896815Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T02:03:44.091660771Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T02:03:44.093136255Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T02:03:44.093988683Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T02:03:44.094667964Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T02:03:44.095413286Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T02:03:44.096148667Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T02:03:44.096765062Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T02:03:44.09744376Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T02:03:44.098125732Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T02:03:44.099061668Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T02:03:44.099760478Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T02:03:44.627526985Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T02:03:44.628625215Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T02:03:44.630993953Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T02:03:44.632033164Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T02:03:44.63364534Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T02:03:44.885903125Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T02:03:50.688337867Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=INFO ts=2020-04-03T02:03:50.689957113Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:07:41.043672758Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T02:07:41.052484858Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T02:07:43.023702449Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T02:07:43.024606554Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T02:07:43.025278032Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T02:07:43.026081607Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T02:07:43.026159797Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T02:07:43.026827563Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T02:07:43.028277891Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T02:07:43.028973108Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T02:07:43.029662578Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T02:07:43.030364241Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T02:07:43.031023446Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T02:07:43.0317154Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T02:07:43.032416155Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T02:07:43.033121234Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T02:07:43.033834962Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T02:07:43.034574646Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T02:07:43.575649686Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T02:07:43.577737103Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T02:07:43.580434512Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T02:07:43.58140403Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T02:07:43.585314835Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T02:07:43.874571014Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T02:07:48.495153487Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=INFO ts=2020-04-03T02:07:48.504360485Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=ERROR ts=2020-04-03T02:08:30.760079513Z app=MqttExport source=handleIncommingData.go:58 msg="Exception when parse json report: %s json: cannot unmarshal string into Go struct field MqttRequest.Body of type map[string]string\n"
+level=INFO ts=2020-04-03T02:08:30.770538004Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:09:55.110405823Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T02:09:55.119083395Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T02:09:57.13301664Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T02:09:57.134165453Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T02:09:57.134917101Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T02:09:57.135630746Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-03T02:09:57.136337229Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T02:09:57.137131227Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-03T02:09:57.135703314Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T02:09:57.137865491Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T02:09:57.139168852Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T02:09:57.139939736Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T02:09:57.140614523Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T02:09:57.141331117Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T02:09:57.14210277Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T02:09:57.143082698Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T02:09:57.144075957Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T02:09:57.14497768Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T02:09:57.676520213Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T02:09:57.677490104Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T02:09:57.679668272Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T02:09:57.680795365Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T02:09:57.682299745Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T02:09:57.947568526Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-03T02:10:03.719778915Z app=MqttExport source=handleIncommingData.go:45 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:11:54.007575091Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T02:11:54.055733934Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T02:11:56.155505546Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T02:11:56.156606664Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T02:11:56.15734932Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T02:11:56.158059555Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-03T02:11:56.158145818Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T02:11:56.158768546Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T02:11:56.160032567Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-03T02:11:56.160800528Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T02:11:56.16151116Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T02:11:56.162151954Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T02:11:56.16280799Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T02:11:56.163527925Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T02:11:56.164162072Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T02:11:56.164871135Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T02:11:56.165687791Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T02:11:56.166559398Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T02:11:56.683383617Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T02:11:56.684626832Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T02:11:56.686506648Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T02:11:56.687890465Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T02:11:56.689972046Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T02:11:56.951697879Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-03T02:12:14.814493152Z app=MqttExport source=handleIncommingData.go:44 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:13:29.101023625Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-03T02:13:29.102540962Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-03T02:13:31.127952856Z app=MqttExport source=sdk.go:391 msg="Logger successfully initialized"
+level=INFO ts=2020-04-03T02:13:31.128942825Z app=MqttExport source=sdk.go:500 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-03T02:13:31.129615737Z app=MqttExport source=sdk.go:422 msg="Clients initialized"
+level=INFO ts=2020-04-03T02:13:31.130291167Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-03T02:13:31.130994019Z app=MqttExport source=cloudMqtt.go:47 msg=letuan
+level=DEBUG ts=2020-04-03T02:13:31.131621846Z app=MqttExport source=cloudMqtt.go:47 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-03T02:13:31.130420662Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-03T02:13:31.132300586Z app=MqttExport source=cloudMqtt.go:47 msg=14640
+level=DEBUG ts=2020-04-03T02:13:31.133560041Z app=MqttExport source=cloudMqtt.go:47 msg=24111998
+level=DEBUG ts=2020-04-03T02:13:31.134179933Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-03T02:13:31.134847735Z app=MqttExport source=cloudMqtt.go:47 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-03T02:13:31.135609454Z app=MqttExport source=cloudMqtt.go:47 msg=0
+level=DEBUG ts=2020-04-03T02:13:31.13622503Z app=MqttExport source=cloudMqtt.go:47 msg=3600
+level=DEBUG ts=2020-04-03T02:13:31.136844598Z app=MqttExport source=cloudMqtt.go:47 msg=true
+level=DEBUG ts=2020-04-03T02:13:31.137467004Z app=MqttExport source=cloudMqtt.go:47 msg=false
+level=INFO ts=2020-04-03T02:13:31.138182952Z app=MqttExport source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-03T02:13:31.677978065Z app=MqttExport source=sdk.go:554 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-03T02:13:31.679285525Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-03T02:13:31.680781557Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-03T02:13:31.681596886Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-03T02:13:31.682950932Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-03T02:13:31.946131834Z app=MqttExport source=handleIncommingData.go:30 msg="[Incoming listener] Start incoming data listening."
+level=ERROR ts=2020-04-03T02:13:37.903179903Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when parse json report: %s json: cannot unmarshal number into Go value of type report.MqttRequest\n"
+level=INFO ts=2020-04-03T02:13:37.912443356Z app=MqttExport source=handleIncommingData.go:44 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-03T02:14:22.608543915Z app=MqttExport source=handleIncommingData.go:44 msg="Successfully handle request!\n"

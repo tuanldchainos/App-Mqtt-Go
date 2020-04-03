@@ -8,8 +8,8 @@ import (
 	"time"
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
-	"github.com/edgexfoundry/app-functions-sdk-go/appsdk"
 	"github.com/edgexfoundry/go-mod-core-contracts/clients/logger"
+	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
 
 const (

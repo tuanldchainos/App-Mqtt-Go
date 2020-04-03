@@ -6,8 +6,7 @@ import (
 
 	"App-Mqtt-Go/pkg"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/appcontext"
-	"github.com/edgexfoundry/app-functions-sdk-go/appsdk"
+	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
 
 const (
@@ -15,6 +14,7 @@ const (
 )
 
 func main() {
+	os.Setenv("EDGEX_SECURITY_SECRET_STORE", "false")
 	edgexSdk := &appsdk.AppFunctionsSDK{ServiceKey: serviceKey}
 	if err := edgexSdk.Initialize(); err != nil {
 		message := fmt.Sprintf("SDK initialization failed: %v\n", err)
@@ -25,6 +25,8 @@ func main() {
 		}
 		os.Exit(-1)
 	}
+
+	urlList := pkg.GetServiceUrlList(edgexSdk)
 
 	config, err := pkg.LoadMqttConfig(edgexSdk)
 	if err != nil {
@@ -38,7 +40,7 @@ func main() {
 		os.Exit(-1)
 	}
 
-	pkg.StartListeningMqttIncoming(client, config)
+	go pkg.StartListeningMqttIncoming(client, config, urlList)
 	err = edgexSdk.MakeItRun()
 	if err != nil {
 		edgexSdk.LoggingClient.Error("MakeItRun returned error: ", err.Error())
@@ -52,21 +54,4 @@ func main() {
 	}()
 
 	os.Exit(0)
-}
-
-func printDataToConsole(edgexcontext *appcontext.Context, params ...interface{}) (bool, interface{}) {
-
-	if len(params) < 1 {
-		// We didn't receive a result
-		return false, nil
-	}
-
-	fmt.Println(params[0].(string))
-
-	// Leverage the built in logging service in EdgeX
-	edgexcontext.LoggingClient.Debug("Printed to console")
-
-	edgexcontext.Complete([]byte(params[0].(string)))
-	return false, nil
-
 }
