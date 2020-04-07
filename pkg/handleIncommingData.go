@@ -25,26 +25,26 @@ var mux sync.Mutex
 func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
 	wg.Add(2)
 	go func() {
-		token := client.Subscribe(Resquest_Topic, byte(BasicQosSubcribe), OnHandleMqttIncomming)
+		token := client.Subscribe(Resquest_Topic, byte(BasicQosSubcribe), onHandleMqttIncomming)
 		if token.Wait() && token.Error() != nil {
 			log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
 		}
 		log.Info("[Incoming listener] Start incoming data listening.")
 	}()
-
 	go func() {
 		for {
 			select {
 			case MqttRequest := <-requestData:
 				mux.Lock()
-				urlList := GetServiceUrlList(sdk)
-				msg, err := createHttpRequest(MqttRequest, urlList)
+				urlList := GetServiceURLList(sdk)
+				msg, err := createHTTPRequest(MqttRequest, urlList)
 				if err != nil {
 					mqttResponseFail(client, MqttRequest, err.Error())
+					log.Error(fmt.Sprintf("Exception when handling http method: %s", err))
 				} else {
 					mqttResponseSuccess(client, MqttRequest, msg)
+					log.Info(fmt.Sprintln("Successfully handle request!"))
 				}
-				log.Info(fmt.Sprintln("Successfully handle request!"))
 				mux.Unlock()
 			}
 		}
@@ -52,12 +52,13 @@ func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK)
 	wg.Wait()
 }
 
-func OnHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
+func onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
 	fmt.Println("Request receving: ", string(message.Payload()))
+	log.Info(fmt.Sprintf("Request receving: %s", string(message.Payload())))
 	var MqttRequest = report.MqttRequest{}
 	err := json.Unmarshal(message.Payload(), &MqttRequest)
 	if err != nil {
-		log.Error(fmt.Sprintln("Exception when parse json report: %s", err))
+		log.Error(fmt.Sprintf("Exception when parse json report: %s", err))
 	}
 
 	// var dataCheck map[string]interface{}
@@ -69,16 +70,16 @@ func OnHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
 	requestData <- &MqttRequest
 }
 
-func createHttpRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
-	ctx := context.TODO()
-	httpUrl := urlList(req.Service) + req.Path
-
+func createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
+	ctx := context.Background()
+	httpURL := urlList(req.Service) + req.Path
+	fmt.Println(httpURL)
 	switch req.Method {
 	case "Get":
-		res, err := clients.GetRequestWithURL(ctx, httpUrl)
+		res, err := clients.GetRequestWithURL(ctx, httpURL)
 		return string(res), err
 	case "Post":
-		res, err := clients.PostJSONRequestWithURL(ctx, httpUrl, req.Body)
+		res, err := clients.PostJSONRequestWithURL(ctx, httpURL, req.Body)
 		return res, err
 	case "Put":
 		urlPre := local.New(urlList(req.Service))
@@ -86,7 +87,7 @@ func createHttpRequest(req *report.MqttRequest, urlList func(string) string) (st
 		res, err := clients.PutRequest(ctx, req.Path, putReqBody, urlPre)
 		return res, err
 	default:
-		return "", errors.New("Unknow http method")
+		return "", errors.New("Unknown http method")
 	}
 }
 
@@ -117,13 +118,14 @@ func mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, ms
 	Response, _ := json.Marshal(EdgeXResponse)
 	client.Publish(Response_Topic, byte(BasicQosPublic), false, string(Response))
 	fmt.Println("Response sending: ", string(Response))
+	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
 	wg.Done()
 }
 
 func mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err string) {
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
-	EdgeXResponse.Method = (*MqttRequest).Service
+	EdgeXResponse.Method = (*MqttRequest).Method
 	EdgeXResponse.Id = (*MqttRequest).Id
 	EdgeXResponse.HttpRequest = (*MqttRequest).Path
 	EdgeXResponse.Body = err
@@ -131,5 +133,6 @@ func mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err s
 	Response, _ := json.Marshal(EdgeXResponse)
 	client.Publish(Response_Topic, byte(BasicQosPublic), false, string(Response))
 	fmt.Println("Response sending: ", string(Response))
+	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
 	wg.Done()
 }
