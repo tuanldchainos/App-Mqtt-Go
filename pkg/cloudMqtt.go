@@ -12,19 +12,6 @@ import (
 	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
 
-const (
-	MQTTHost           = "MQTTHost"
-	MQTTUser           = "MQTTUser"
-	MQTTPass           = "MQTTPass"
-	MQTTPort           = "MQTTPort"
-	Qos                = "Qos"
-	KeepAlive          = "KeepAlive"
-	CertFilename       = "MQTTCert"
-	PrivateKeyFilename = "MQTTKey"
-	SkipCertVerify     = "SkipCertVerify"
-	PersistOnError     = "PersistOnError"
-)
-
 var log logger.LoggingClient
 
 type MqttConfig struct {
@@ -38,17 +25,6 @@ type MqttConfig struct {
 	MqttCertFile  string
 	MqttKeyFile   string
 	// MqttPersistOnError string
-}
-
-func getAppSetting(setting map[string]string, name string) string {
-	value, ok := setting[name]
-
-	if ok {
-		log.Debug(value)
-		return value
-	}
-	log.Error(fmt.Sprintf("ApplicationName application setting %s not found", name))
-	return ""
 }
 
 func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
@@ -153,3 +129,14 @@ func CreateClient(config *MqttConfig) (MQTT.Client, error) {
 func isSkipCertVerify(SkipCertVerify bool) bool {
 	return SkipCertVerify
 }
+
+// func getAppSetting(setting map[string]string, name string) string {
+// 	value, ok := setting[name]
+
+// 	if ok {
+// 		log.Debug(value)
+// 		return value
+// 	}
+// 	log.Error(fmt.Sprintf("ApplicationName application setting %s not found", name))
+// 	return ""
+// }

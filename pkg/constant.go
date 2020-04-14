@@ -1,11 +1,17 @@
 package pkg
 
+// Mqtt params constant
 const (
-	Resquest_Topic = "Request"
-	Response_Topic = "Response"
-)
-
-const (
-	BasicQosPublic   = 0
-	BasicQosSubcribe = 0
+	MQTTHost           = "MQTTHost"
+	MQTTUser           = "MQTTUser"
+	MQTTPass           = "MQTTPass"
+	MQTTPort           = "MQTTPort"
+	Qos                = "Qos"
+	KeepAlive          = "KeepAlive"
+	CertFilename       = "MQTTCert"
+	PrivateKeyFilename = "MQTTKey"
+	SkipCertVerify     = "SkipCertVerify"
+	PersistOnError     = "PersistOnError"
+	RequestTopic       = "RequestTopic"
+	ResponseTopic      = "ResponseTopic"
 )

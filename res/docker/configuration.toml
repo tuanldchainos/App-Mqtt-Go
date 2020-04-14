@@ -79,4 +79,5 @@ Qos                 = "0"
 KeepAlive           = "3600"
 SkipCertVerify	    = "true"
 PersistOnError	    = "false"
-
+RequestTopic        = "Request"
+ResponseTopic       = "Response"
