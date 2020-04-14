@@ -14,6 +14,7 @@ import (
 
 var log logger.LoggingClient
 
+// MqttConfig struct is struct of params, required to connecting to mqtt cloud
 type MqttConfig struct {
 	MqttScheme    string
 	MqttHost      string
@@ -27,6 +28,7 @@ type MqttConfig struct {
 	// MqttPersistOnError string
 }
 
+// LoadMqttConfig create config to mqtt connect
 func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 	if sdk == nil {
 		return nil, errors.New("Invalid AppFunctionsSDK")
@@ -85,6 +87,7 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 	return config, nil
 }
 
+// CreateClient return a client, that connect to mqtt cloud successfully
 func CreateClient(config *MqttConfig) (MQTT.Client, error) {
 	log.Info(fmt.Sprintf("Create MQTT client and connection"))
 	opts := MQTT.NewClientOptions()
