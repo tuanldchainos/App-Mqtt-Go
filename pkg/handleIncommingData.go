@@ -22,6 +22,7 @@ var wg sync.WaitGroup
 
 var mux sync.Mutex
 
+// StartListeningMqttIncoming listen mqtt report incomming and handle request
 func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
 	urlList := GetServiceURLList(sdk)
 	responseTopicLists := GetResponseTopicList(sdk)
