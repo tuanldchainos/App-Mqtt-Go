@@ -8,24 +8,6 @@ import (
 	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
 
-const (
-	LoggingClientName       = "Logging"
-	CoreCommandClientName   = "Command"
-	CoreDataClientName      = "CoreData"
-	NotificationsClientName = "Notifications"
-	MetadataClientName      = "Metadata"
-	SchedulerClientName     = "Scheduler"
-)
-
-const (
-	CoreCommandServiceKey          = "edgex-core-command"
-	CoreDataServiceKey             = "edgex-core-data"
-	CoreMetaDataServiceKey         = "edgex-core-metadata"
-	SupportLoggingServiceKey       = "edgex-support-logging"
-	SupportNotificationsServiceKey = "edgex-support-notifications"
-	SupportSchedulerServiceKey     = "edgex-support-scheduler"
-)
-
 // GetServiceURLList return list url of egdex service
 func GetServiceURLList(sdk *appsdk.AppFunctionsSDK) func(string) string {
 	urlList, err := setServiceURLList(sdk)
@@ -97,7 +79,6 @@ func setServiceURLList(sdk *appsdk.AppFunctionsSDK) (func(string) string, error)
 		coredataURL = sdk.GetServiceURLViaConfigFile(CoreDataClientName)
 		log.Info(fmt.Sprintf("Can not take service url via registry, take url in config file: %s", err))
 	}
-	fmt.Println(coredataURL)
 	commandURL, err := sdk.GetServiceURLViaRegistry(CoreCommandServiceKey)
 	if err != nil {
 		commandURL = sdk.GetServiceURLViaConfigFile(CoreCommandClientName)

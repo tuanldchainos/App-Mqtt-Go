@@ -16,22 +16,35 @@ import (
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 )
 
-var requestData = make(chan *report.MqttRequest)
+// MqttHandle struct is a object, that have responsibility for handling a mqtt request
+type MqttHandle struct {
+	requestData chan *report.MqttRequest
+	wg          sync.WaitGroup
+	mux         sync.Mutex
+}
 
-var wg sync.WaitGroup
-
-var mux sync.Mutex
+// NewMqttHandle return a handle mqtt struct
+func NewMqttHandle() *MqttHandle {
+	var requestData = make(chan *report.MqttRequest)
+	var wg sync.WaitGroup
+	var mux sync.Mutex
+	return &MqttHandle{
+		requestData: requestData,
+		wg:          wg,
+		mux:         mux,
+	}
+}
 
 // StartListeningMqttIncoming listen mqtt report incomming and handle request
-func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
+func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
 	urlList := GetServiceURLList(sdk)
 	responseTopicLists := GetResponseTopicList(sdk)
 	Qos := GetMqttQos(sdk)
 	requestTopic := GetRequestTopic(sdk)
 
-	wg.Add(2)
+	f.wg.Add(2)
 	go func() {
-		token := client.Subscribe(requestTopic, byte(Qos), onHandleMqttIncomming)
+		token := client.Subscribe(requestTopic, byte(Qos), f.onHandleMqttIncomming)
 		if token.Wait() && token.Error() != nil {
 			log.Info(fmt.Sprintf("[Incoming listener] Stop incoming data listening. Cause:%v", token.Error()))
 		}
@@ -40,24 +53,24 @@ func StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK)
 	go func() {
 		for {
 			select {
-			case MqttRequest := <-requestData:
-				mux.Lock()
-				msg, err := createHTTPRequest(MqttRequest, urlList)
+			case MqttRequest := <-f.requestData:
+				f.mux.Lock()
+				msg, err := f.createHTTPRequest(MqttRequest, urlList)
 				if err != nil {
-					mqttResponseFail(client, MqttRequest, err.Error(), responseTopicLists, Qos)
+					f.mqttResponseFail(client, MqttRequest, err.Error(), responseTopicLists, Qos)
 					log.Error(fmt.Sprintf("Exception when handling http method: %s", err))
 				} else {
-					mqttResponseSuccess(client, MqttRequest, msg, responseTopicLists, Qos)
+					f.mqttResponseSuccess(client, MqttRequest, msg, responseTopicLists, Qos)
 					log.Info(fmt.Sprintln("Successfully handle request!"))
 				}
-				mux.Unlock()
+				f.mux.Unlock()
 			}
 		}
 	}()
-	wg.Wait()
+	f.wg.Wait()
 }
 
-func onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
+func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
 	fmt.Println("Request receving: ", string(message.Payload()))
 	log.Info(fmt.Sprintf("Request receving: %s", string(message.Payload())))
 	var MqttRequest = report.MqttRequest{}
@@ -72,10 +85,10 @@ func onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
 	// 	log.Info(fmt.Sprintln("Unrecognize mqtt request"))
 	// 	mqttResponseFail(client, &MqttRequest, "Unrecognize mqtt request")
 	// }
-	requestData <- &MqttRequest
+	f.requestData <- &MqttRequest
 }
 
-func createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
+func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
 	ctx := context.Background()
 	httpURL := urlList(req.Service) + req.Path
 	fmt.Println(httpURL)
@@ -116,7 +129,7 @@ func createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (st
 // 	}
 // }
 
-func mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, msg string, responseTopicLists []string, qos int) {
+func (f *MqttHandle) mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, msg string, responseTopicLists []string, qos int) {
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
 	EdgeXResponse.Method = (*MqttRequest).Service
@@ -130,10 +143,10 @@ func mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, ms
 	}
 	fmt.Println("Response sending: ", string(Response))
 	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
-	wg.Done()
+	f.wg.Done()
 }
 
-func mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err string, responseTopicLists []string, qos int) {
+func (f *MqttHandle) mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err string, responseTopicLists []string, qos int) {
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
 	EdgeXResponse.Method = (*MqttRequest).Method
@@ -147,5 +160,5 @@ func mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err s
 	}
 	fmt.Println("Response sending: ", string(Response))
 	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
-	wg.Done()
+	f.wg.Done()
 }

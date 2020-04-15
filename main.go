@@ -38,7 +38,7 @@ func main() {
 		os.Exit(-1)
 	}
 
-	go pkg.StartListeningMqttIncoming(client, edgexSdk)
+	go pkg.NewMqttHandle().StartListeningMqttIncoming(client, edgexSdk)
 	err = edgexSdk.MakeItRun()
 	if err != nil {
 		edgexSdk.LoggingClient.Error("MakeItRun returned error: ", err.Error())
