@@ -16,6 +16,7 @@ const (
 	ResponseTopic      = "ResponseTopic"
 )
 
+// Edgex constant
 const (
 	LoggingClientName       = "Logging"
 	CoreCommandClientName   = "Command"
@@ -25,6 +26,7 @@ const (
 	SchedulerClientName     = "Scheduler"
 )
 
+// Edgex constant
 const (
 	CoreCommandServiceKey          = "edgex-core-command"
 	CoreDataServiceKey             = "edgex-core-data"

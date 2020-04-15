@@ -1,0 +1,39 @@
+level=INFO ts=2020-04-15T08:14:46.160425817Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-15T08:14:46.16144296Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-15T08:14:46.162722293Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-15T08:14:46.164069202Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-15T08:14:46.164726487Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-15T08:14:46.16547807Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-15T08:14:46.165774838Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-15T08:14:46.171054615Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-15T08:14:46.172512908Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-15T08:14:46.174621548Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-15T08:14:46.175863622Z app=MqttExport source=clientSupport.go:69 msg=./certs/user.client.crt
+level=DEBUG ts=2020-04-15T08:14:46.176974936Z app=MqttExport source=clientSupport.go:69 msg=./certs/user.client.key
+level=DEBUG ts=2020-04-15T08:14:46.180398763Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-15T08:14:46.1814033Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-15T08:14:46.182322743Z app=MqttExport source=clientSupport.go:69 msg=true
+level=INFO ts=2020-04-15T08:14:46.181017993Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-15T08:14:46.183173413Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-15T08:14:46.184835835Z app=MqttExport source=cloudMqtt.go:92 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-15T08:14:47.212507758Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-15T08:14:47.214236604Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-15T08:14:47.216768163Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-15T08:14:47.218188316Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-15T08:14:47.219991056Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-15T08:14:47.235244108Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-15T08:14:47.236375871Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-15T08:14:47.237427953Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-15T08:14:47.671996313Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-15T08:14:49.353738138Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-15T08:14:49.354348236Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-15T08:14:49.354421247Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-15T08:14:56.533258865Z app=MqttExport source=handleIncommingData.go:71 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-15T08:15:06.561436138Z app=MqttExport source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"http://edgex-core-data:48080/api/v1/ping\\\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution\"}"
+level=ERROR ts=2020-04-15T08:15:06.570245772Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"http://edgex-core-data:48080/api/v1/ping\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution"
+level=DEBUG ts=2020-04-15T08:15:09.355059201Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-15T08:15:09.355597411Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-15T08:15:09.355916911Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-15T08:15:19.362092104Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-15T08:15:19.370740078Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-15T08:15:19.370789526Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"

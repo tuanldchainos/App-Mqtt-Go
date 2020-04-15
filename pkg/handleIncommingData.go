@@ -26,12 +26,8 @@ type MqttHandle struct {
 // NewMqttHandle return a handle mqtt struct
 func NewMqttHandle() *MqttHandle {
 	var requestData = make(chan *report.MqttRequest)
-	var wg sync.WaitGroup
-	var mux sync.Mutex
 	return &MqttHandle{
 		requestData: requestData,
-		wg:          wg,
-		mux:         mux,
 	}
 }
 
