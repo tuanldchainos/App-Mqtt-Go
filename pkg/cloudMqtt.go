@@ -4,6 +4,7 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
+	"io/ioutil"
 	"strconv"
 	"time"
 
@@ -36,7 +37,7 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 
 	log = sdk.LoggingClient
 
-	var MqttHost, MqttPort, MqttUser, MqttPass, MqttCert, MqttKey, MqttQos, MqttKeepAlive string
+	var MqttHost, MqttPort, MqttUser, MqttPass, MqttCertData, MqttKeyData, MqttQos, MqttKeepAlive string
 	var skipCertVerify bool
 	// var persistOnError bool
 	var errSkip, errPersist error
@@ -47,8 +48,9 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 		MqttHost = getAppSetting(appSettings, MQTTHost)
 		MqttPort = getAppSetting(appSettings, MQTTPort)
 		MqttPass = getAppSetting(appSettings, MQTTPass)
-		MqttCert = getAppSetting(appSettings, CertFilename)
-		MqttKey = getAppSetting(appSettings, PrivateKeyFilename)
+		MqttCertData = getAppSetting(appSettings, MQTTCertData)
+		MqttKeyData = getAppSetting(appSettings, MQTTKeyData)
+		fmt.Println(MqttKeyData)
 		MqttQos = getAppSetting(appSettings, Qos)
 		MqttKeepAlive = getAppSetting(appSettings, KeepAlive)
 		skipCertVerify, errSkip = strconv.ParseBool(getAppSetting(appSettings, SkipCertVerify))
@@ -60,6 +62,16 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 		}
 		if errPersist != nil {
 			log.Error("Unable to parse " + PersistOnError + " value")
+		}
+
+		err := writeDataToCerFile(MqttCertData)
+		if err != nil {
+			log.Error(fmt.Sprintln("error while writing data to cer file ", err))
+		}
+
+		err = writeDataToKeyFile(MqttCertData)
+		if err != nil {
+			log.Error(fmt.Sprintln("error while writing data to key file ", err))
 		}
 	} else {
 		log.Error("No application-specific settings found")
@@ -73,17 +85,15 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 	config.MqttKeepAlive, _ = strconv.Atoi(MqttKeepAlive)
 	config.MqttHost = MqttHost
 	config.MqttPort = MqttPort
+	config.MqttCertFile = MQTTCertDir
+	config.MqttKeyFile = MQTTKeyDir
 	//config.PersistOnError = persistOnError
 
 	if isSkipCertVerify(skipCertVerify) {
 		config.MqttScheme = "tcp"
-		config.MqttCertFile = ""
-		config.MqttKeyFile = ""
 		return config, nil
 	}
 	config.MqttScheme = "tls"
-	config.MqttCertFile = MqttCert
-	config.MqttKeyFile = MqttKey
 	return config, nil
 }
 
@@ -133,13 +143,14 @@ func isSkipCertVerify(SkipCertVerify bool) bool {
 	return SkipCertVerify
 }
 
-// func getAppSetting(setting map[string]string, name string) string {
-// 	value, ok := setting[name]
+func writeDataToCerFile(data string) error {
+	dataWrite := "-----BEGIN CERTIFICATE-----\n" + data + "\n-----END CERTIFICATE-----"
+	err := ioutil.WriteFile(MQTTCertDir, []byte(dataWrite), 0644)
+	return err
+}
 
-// 	if ok {
-// 		log.Debug(value)
-// 		return value
-// 	}
-// 	log.Error(fmt.Sprintf("ApplicationName application setting %s not found", name))
-// 	return ""
-// }
+func writeDataToKeyFile(data string) error {
+	dataWrite := "-----BEGIN PRIVATE KEY-----\n" + data + "\n-----END PRIVATE KEY-----"
+	err := ioutil.WriteFile(MQTTCertDir, []byte(dataWrite), 0644)
+	return err
+}
