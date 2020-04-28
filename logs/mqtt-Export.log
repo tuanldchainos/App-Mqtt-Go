@@ -550,3 +550,931 @@ level=INFO ts=2020-04-22T08:52:19.353571339Z app=MqttExport source=handleIncommi
 level=INFO ts=2020-04-22T08:52:23.857188849Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
 level=INFO ts=2020-04-22T08:52:23.865518506Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
 level=INFO ts=2020-04-22T08:52:23.865576327Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-27T15:56:21.768005721Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-27T15:56:21.770509544Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-27T15:56:21.771931199Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-27T15:56:21.775446857Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-27T15:56:21.776071874Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-27T15:56:21.777986037Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-27T15:56:21.77889829Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-27T15:56:21.78233521Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-27T15:56:21.783244812Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-27T15:56:21.784268817Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=INFO ts=2020-04-27T15:56:21.783285092Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-27T15:56:21.786798638Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-27T15:56:21.788574185Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-27T15:56:21.789532891Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T15:56:21.790393689Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-27T15:56:21.791328799Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-27T15:56:21.792139647Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-27T15:56:21.793595404Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-27T15:56:22.357877782Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-27T15:56:22.358650836Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-27T15:56:22.360523194Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-27T15:56:22.361937343Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=DEBUG ts=2020-04-27T15:56:22.363466015Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-27T15:56:22.36449981Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T15:56:22.365237726Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-27T15:56:22.363689017Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-27T15:56:22.653180102Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-27T15:56:24.41320178Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:24.413541011Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:25.247039846Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:27.876318703Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:27.954096976Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:27.99164267Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:28.046927136Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:28.247806895Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:34.788629309Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:34.857859748Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:34.914501727Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:34.954052553Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:38.151043375Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:40.293147602Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:42.931702931Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:43.007731925Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:43.055416066Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:48.190331184Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:54.45187935Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:54.513391043Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:54.912888297Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:54.978710165Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:55.006483017Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:55.04602394Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:55.409042328Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:58.221737244Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:58.25610336Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:58.445321118Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:58.445367461Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:56:58.445378209Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:08.462044381Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:10.548801782Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:13.287865536Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:13.36603438Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:13.417830793Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:14.991362857Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:15.116984528Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:15.176340429Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:15.248577561Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:18.508363944Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:24.556085739Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:24.624841893Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:25.596823069Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:28.501170247Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:28.543924145Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:28.577637266Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:28.750760466Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:28.75075491Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:35.036884832Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:35.168246954Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:35.22294509Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:35.307894668Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:38.71851915Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:40.679772219Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:43.530947914Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:43.607876506Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:43.64790976Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:48.799225865Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:54.601012556Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:54.660314464Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:55.106628075Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:55.25713185Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:55.285800612Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:55.369145674Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:55.707565484Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:58.802105611Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:58.835257411Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:58.893114923Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:58.917904796Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:57:59.101122819Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:09.048107648Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:10.809644215Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:13.870437622Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:14.022857663Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:14.108603336Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-27T15:58:14.24756319Z app=MqttExport source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=DEBUG ts=2020-04-27T15:58:15.193495838Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:15.330902196Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:15.416122825Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:15.456276324Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:19.09662851Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-27T15:58:24.264944876Z app=MqttExport source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"http://edgex-core-data:50000/api/v1/ping\\\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution\"}"
+level=ERROR ts=2020-04-27T15:58:24.266497631Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"http://edgex-core-data:50000/api/v1/ping\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution"
+level=DEBUG ts=2020-04-27T15:58:24.725168248Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:24.749819675Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:25.909207332Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:29.126534684Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:29.202543244Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:29.232466163Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:29.394677789Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:29.394704893Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:35.318582179Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:35.414875122Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:35.474990852Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:35.527533716Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:39.308305444Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:40.973426809Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:44.177822218Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:44.278496983Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:44.347291382Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T15:58:49.419133016Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-27T15:58:54.463537296Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-27T15:58:54.464929227Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-27T15:58:54.465229056Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-27T16:05:22.545750996Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-27T16:05:22.54734021Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-27T16:05:22.548441104Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-27T16:05:22.550632464Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-27T16:05:22.550639073Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-27T16:05:22.550674596Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-27T16:05:22.55162487Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-27T16:05:22.554571471Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-27T16:05:22.555418748Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-27T16:05:22.556187878Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=INFO ts=2020-04-27T16:05:22.555008866Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-27T16:05:22.556935536Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-27T16:05:22.558711474Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-27T16:05:22.559644713Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T16:05:22.56057199Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-27T16:05:22.561650094Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-27T16:05:22.562386391Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-27T16:05:22.563244677Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-27T16:05:23.468516749Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-27T16:05:23.470051905Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-27T16:05:23.474695723Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-27T16:05:23.475879557Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-27T16:05:23.477360986Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-27T16:05:23.494646849Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-27T16:05:23.495900308Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T16:05:23.498316032Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-27T16:05:23.792850453Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-27T16:05:25.856977893Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:25.94837777Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:27.921774833Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:32.970152184Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:33.010951767Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:33.223585095Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:33.223589921Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:33.223664986Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:36.99846403Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:37.034473303Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:37.087076391Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:37.134428634Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:43.002241774Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:43.209106233Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:48.061940811Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:48.144396889Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:48.188560355Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:53.32135846Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:55.952553061Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:56.024443958Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:57.061113214Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:57.117755714Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:57.17226398Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:57.204543624Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:05:58.07992203Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:06:03.178698034Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:06:03.241189335Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:06:03.28393084Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:06:03.434253372Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:06:03.434239033Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-27T16:06:08.834961699Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-27T16:06:08.843389278Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-27T16:06:08.843445299Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-27T16:07:00.107249594Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-27T16:07:00.109733388Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-27T16:07:00.111017152Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-27T16:07:00.115176283Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-27T16:07:00.115222307Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-27T16:07:00.115241446Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-27T16:07:00.11651769Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-27T16:07:00.119098165Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-27T16:07:00.119763933Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=INFO ts=2020-04-27T16:07:00.118298419Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-27T16:07:00.120484281Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-27T16:07:00.122329177Z app=MqttExport source=clientSupport.go:69 msg=qqqqq
+level=DEBUG ts=2020-04-27T16:07:00.123093287Z app=MqttExport source=clientSupport.go:69 msg=wwwww
+level=DEBUG ts=2020-04-27T16:07:00.124709099Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T16:07:00.125667756Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-27T16:07:00.126374705Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-27T16:07:00.127069136Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-27T16:07:00.127903967Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-27T16:07:00.677137995Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-27T16:07:00.678396928Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-27T16:07:00.683180934Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-27T16:07:00.684485677Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-27T16:07:00.687097619Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-27T16:07:00.702531198Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-27T16:07:00.703567849Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-27T16:07:00.704524858Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-27T16:07:00.973633592Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-27T16:07:03.682833577Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:03.728983062Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:03.773441708Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:03.988297539Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:03.988339298Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:13.449863467Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:13.887938005Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:17.333783926Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:17.433243439Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:17.492787598Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:17.534749384Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:18.769335614Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:18.82107917Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:18.863745053Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:23.94971909Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:26.158085503Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:26.213771954Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:28.482112513Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:33.997928087Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:34.077238488Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:34.255969533Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:34.256068672Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:34.256117013Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:37.436713675Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:37.510477726Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:37.561315355Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:37.609586132Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:43.560775045Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:44.241649415Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:49.095323324Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:49.16422645Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-27T16:07:49.232873604Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-27T16:07:52.438389986Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-27T16:07:52.439743676Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-27T16:07:52.439787968Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:17:41.385118362Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:17:41.386292813Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:17:41.387124388Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:17:41.388256052Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:17:41.393030892Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:17:41.393145277Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:17:41.393588201Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:17:41.409872151Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:17:41.412092315Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:17:41.415452952Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:17:41.424887081Z app=MqttExport source=clientSupport.go:69 msg=
+level=INFO ts=2020-04-28T14:17:41.417893204Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:17:41.426610871Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:17:41.428766458Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:17:41.429645516Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:17:41.430474474Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:17:41.432033358Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:17:41.434158583Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:17:42.169853275Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:17:42.170917361Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:17:42.172499974Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:17:42.173616182Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:17:42.174503934Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:17:42.181146043Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:17:42.182037682Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:17:42.182806182Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:17:42.468209908Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:17:49.690665371Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:54.385104672Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:54.389114683Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:54.392931532Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:54.396286793Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:59.387694038Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:59.392895394Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:59.397291257Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:59.402262985Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:17:59.406601708Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:18:05.369351762Z app=MqttExport source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:18:05.370414959Z app=MqttExport source=handleIncommingData.go:160 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:18:05.371149498Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:18:09.386809444Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.38896167Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.392578187Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.396309864Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.400754951Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.403506023Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:09.410088929Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:19.407230094Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:19.417146414Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:19.419361639Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:19.426962507Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:19.433253797Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:18:23.605786359Z app=MqttExport source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\" \",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:18:23.654033122Z app=MqttExport source=handleIncommingData.go:160 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Error secret key\"}"
+level=ERROR ts=2020-04-28T14:18:23.655309529Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Error secret key"
+level=DEBUG ts=2020-04-28T14:18:24.410330334Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:24.418144915Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:24.425702215Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:24.43276075Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:29.452040355Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.405810644Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.411780039Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.419076249Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.426297872Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.43343204Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.440639237Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.447311936Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.451541276Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.456114617Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.460175251Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:18:39.463722793Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:18:44.096578364Z app=MqttExport source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:18:44.105839797Z app=MqttExport source=handleIncommingData.go:160 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=INFO ts=2020-04-28T14:22:13.779578161Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:22:13.780346336Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:22:13.781398444Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:22:13.784945604Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:22:13.785083932Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:22:13.785005701Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:22:13.790767742Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:22:13.795798511Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:22:13.796586222Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:22:13.797296907Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=INFO ts=2020-04-28T14:22:13.796163857Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:22:13.79818039Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:22:13.799701354Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:22:13.800381675Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:22:13.801087797Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:22:13.801997377Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:22:13.802803246Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:22:13.803846803Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:22:14.378579101Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:22:14.379953153Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:22:14.382262826Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:22:14.384198324Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:22:14.385246001Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:22:14.392420201Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:22:14.393325077Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:22:14.394123076Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:22:14.668752704Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:22:19.55512352Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:19.561129597Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:19.568811996Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:19.5736602Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:19.654469133Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:24.676748868Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:24.68124361Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:24.695080583Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:24.703867369Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:29.666763319Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.485287542Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.490578905Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.554828587Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.562862222Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.569507345Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.57805069Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.676244272Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.683127784Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.690783963Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.700581493Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:39.708598125Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:49.730712481Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:54.745771702Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:54.75106293Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:54.756747556Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:59.572688042Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:59.580506886Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:59.58869001Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:59.595319687Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:22:59.736097394Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.492389688Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.498797928Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.742805572Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.750383164Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.758572609Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.765737089Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:09.773047836Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:19.586077575Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:19.589304553Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:19.594412655Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:19.59960218Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:19.751277272Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:24.769398588Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:24.778932015Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:24.786187915Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:24.794882086Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:23:29.764417333Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:23:38.233079616Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-28T14:23:38.242454678Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-28T14:23:38.242478077Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:24:26.454710459Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:24:26.459137591Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:24:26.461453591Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:24:26.468700351Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:24:26.468847359Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:24:26.468942076Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:24:26.470881675Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:24:26.475801988Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:24:26.476565536Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:24:26.477343212Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:24:26.478203073Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:24:26.479111849Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:24:26.479870671Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:24:26.480637805Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:24:26.481790518Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:24:26.482523337Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:24:26.481150838Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-28T14:24:26.483479025Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:24:27.747967286Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:24:27.757592907Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:24:27.765406516Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:24:27.767044674Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:24:27.76835469Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:24:27.7744814Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:24:27.775411198Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:24:27.776331616Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:24:28.067274843Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:24:29.803633437Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:24:39.045320988Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:24:39.054456823Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:24:39.056124988Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:24:39.50639762Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.514342118Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.627552012Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.636653604Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.644062901Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.649630753Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.809792595Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.818062356Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.826248689Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.833943016Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:39.841300991Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:49.826224762Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:24:52.353519528Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"aaaaaa\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:24:52.369459559Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Error secret key\"}"
+level=ERROR ts=2020-04-28T14:24:52.371047383Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Error secret key"
+level=DEBUG ts=2020-04-28T14:24:54.836306017Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:54.84000549Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:54.846385859Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:54.853234886Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:59.634868807Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:59.64393457Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:59.651736497Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:59.659967205Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:24:59.830138215Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:25:05.746001744Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"develop\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:25:05.755081996Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=INFO ts=2020-04-28T14:26:02.718672185Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:26:02.719666868Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:26:02.720996122Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:26:02.722632888Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:26:02.722783892Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:26:02.722961083Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:26:02.726024813Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:26:02.730132575Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:26:02.731190371Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:26:02.732203479Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:26:02.733364593Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:26:02.73414966Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:26:02.735075723Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:26:02.736042886Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:26:02.740725913Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:26:02.741784706Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:26:02.74102151Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-28T14:26:02.742988007Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:26:03.390579073Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:26:03.392130195Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:26:03.394356781Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:26:03.396412476Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:26:03.398289356Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:26:03.420728532Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:26:03.421861228Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:26:03.422929256Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:26:03.826201935Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:26:09.529398812Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.543413573Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.884507848Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.920491489Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.932908832Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.93946188Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:09.944333891Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:26:15.556553461Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"develop\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:26:15.565877875Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:26:15.567058263Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:26:19.685818722Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:19.694688396Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:19.702533082Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:19.709018798Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:19.891498849Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:24.924975366Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:24.936325179Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:24.945002799Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:26:24.950903031Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:26:26.568661601Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:26:26.57750404Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:26:26.578720677Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:26:29.901972959Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:26:35.035090269Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:26:35.036701528Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=INFO ts=2020-04-28T14:27:29.589705979Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:27:29.590466882Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:27:29.591281634Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:27:29.59461882Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:27:29.595102411Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:27:29.595165976Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:27:29.595855061Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:27:29.598324741Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:27:29.599237056Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:27:29.600907634Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:27:29.601721054Z app=MqttExport source=clientSupport.go:69 msg=
+level=INFO ts=2020-04-28T14:27:29.600312515Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:27:29.602430159Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:27:29.603752781Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:27:29.604525926Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:27:29.605159111Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:27:29.60584217Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:27:29.606580971Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:27:30.188544847Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:27:30.189974153Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:27:30.191973518Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:27:30.19306071Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:27:30.195468079Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:27:30.209185913Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:27:30.210284286Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:27:30.211225122Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:27:30.486642363Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-28T14:27:36.267013218Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:27:36.268808872Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:27:36.270087203Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-28T14:27:39.3992564Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:27:39.407795584Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:27:39.408896582Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:27:39.551491054Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.565190621Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.720965239Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.729929801Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.735484949Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.741764003Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:39.955894924Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:40.005962129Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:40.013126608Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:40.02070162Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:27:40.028808882Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:27:43.357086089Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:27:43.359771498Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=INFO ts=2020-04-28T14:28:28.020179216Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:28:28.020912724Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:28:28.021701343Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:28:28.023207806Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-28T14:28:28.024037489Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:28:28.024701406Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-28T14:28:28.023411779Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:28:28.023463039Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:28:28.025606999Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:28:28.028113822Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:28:28.03052737Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:28:28.03172129Z app=MqttExport source=clientSupport.go:69 msg=
+level=INFO ts=2020-04-28T14:28:28.031853814Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:28:28.032499083Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:28:28.042985203Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:28:28.043874161Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:28:28.044697715Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:28:28.046108193Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=DEBUG ts=2020-04-28T14:28:28.646985914Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:28:28.648318508Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:28:28.649443541Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:28:28.927002082Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-28T14:28:31.006941782Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:28:31.016090578Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:28:31.017206385Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-28T14:28:34.161848861Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:28:34.170439317Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:28:34.171584111Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-28T14:28:34.171705565Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:28:34.173623539Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:28:34.176117507Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:28:34.177472696Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:28:34.17896756Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-28T14:28:38.903992311Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:28:38.912756629Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=INFO ts=2020-04-28T14:28:58.13227863Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:28:58.13304148Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:28:58.133854981Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:28:58.134614334Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:28:58.134768477Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:28:58.134811639Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:28:58.135575236Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:28:58.139933475Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-28T14:28:58.140058107Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:28:58.140914902Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:28:58.142690477Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:28:58.143549577Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:28:58.144363544Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:28:58.145224888Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:28:58.146107399Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:28:58.146744683Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:28:58.147381731Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:28:58.148120352Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:28:58.708246245Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:28:58.709287761Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:28:58.710753976Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:28:58.711844486Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:28:58.713071101Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:28:58.724712806Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:28:58.725751386Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:28:58.72669953Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:28:58.995255782Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:28:59.76767539Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:28:59.776235062Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:28:59.78559579Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:28:59.795528554Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:00.023499149Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:29:02.265360752Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:29:02.27454579Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:29:02.275672088Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:29:09.571547228Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:09.586050799Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:10.029129574Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:10.042991372Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:10.058329008Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:10.068883966Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:10.075007237Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:29:13.29398844Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:29:13.302871998Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:29:13.304064446Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-28T14:29:16.467639675Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:29:16.476451729Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=INFO ts=2020-04-28T14:29:51.04589246Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:29:51.046759889Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:29:51.047598003Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:29:51.04863662Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:29:51.04905382Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:29:51.049044369Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:29:51.049860142Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:29:51.052519792Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:29:51.053411147Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:29:51.054252322Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:29:51.054916326Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:29:51.055653561Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:29:51.057190799Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:29:51.058281259Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:29:51.061285538Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:29:51.062309528Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:29:51.063880819Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:29:51.107514458Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-28T14:29:51.621843133Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:29:51.622957853Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:29:51.624691382Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:29:51.625565036Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:29:51.626703305Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:29:51.637352396Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:29:51.638254698Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:29:51.63894154Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:29:51.927536577Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:29:55.111630704Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:55.119504644Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:55.128730285Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:55.138883608Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:59.784927602Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:59.793089229Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:59.797489493Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:29:59.805732762Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:00.071458872Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:30:02.826271914Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:30:02.835957771Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:30:02.837321533Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:30:09.584704877Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:09.601210915Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:30:09.614638676Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:30:09.616131924Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:30:09.617326248Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:30:10.080711361Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:10.115459156Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:10.122073656Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:10.128597346Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:10.138234976Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:19.805246483Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:19.811286676Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:19.816881826Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:19.820396286Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:30:20.08760436Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:30:22.287770333Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}\n"
+level=INFO ts=2020-04-28T14:30:22.289923448Z app=MqttExport source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=INFO ts=2020-04-28T14:31:21.942440091Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:31:21.943177205Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:31:21.943936458Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:31:21.944752949Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-28T14:31:21.946526989Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:31:21.947368869Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-28T14:31:21.94484466Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:31:21.944891132Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:31:21.948089644Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:31:21.950125426Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:31:21.950794906Z app=MqttExport source=clientSupport.go:69 msg=
+level=INFO ts=2020-04-28T14:31:21.949710987Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:31:21.951657194Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:31:21.953278417Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:31:21.954301111Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:31:21.955164144Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:31:21.95606475Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:31:21.957302037Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:31:22.526898853Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:31:22.528182786Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:31:22.530685667Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:31:22.533615507Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:31:22.535624895Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:31:22.558663515Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:31:22.559761724Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:31:22.5608323Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:31:22.834577746Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:31:25.168447075Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:25.169669443Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:25.175794476Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:25.181113537Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:30.153052346Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.605360503Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.621823559Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.844162164Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.853772361Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.867266066Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:39.871224587Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:40.160097763Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:40.175677099Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:40.184820713Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:40.195777124Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:40.205993588Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:31:40.4868676Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:31:40.488673431Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:31:40.489790342Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-28T14:31:43.610042107Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:31:43.618902518Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:31:43.620143317Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-28T14:31:48.027824793Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:31:48.036839686Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:31:48.037937697Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:31:50.167161156Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:31:51.838618799Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:31:51.847458586Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:31:51.848602097Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-28T14:31:55.105495006Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:31:55.107072855Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:31:55.108287884Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:31:55.183281981Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:55.191315854Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:55.199463464Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:55.206076169Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:59.850282372Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:59.856440978Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:59.86652243Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:31:59.875192265Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:00.171823499Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:32:04.159075757Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:32:04.159954708Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:32:04.160675821Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-28T14:32:07.849128429Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:32:07.858028242Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:32:07.85901174Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:32:09.607750806Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:09.622590141Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:10.178988983Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:10.187959259Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:10.200360857Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:10.209295047Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:32:10.217856111Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:32:10.222298634Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-28T14:32:10.223095715Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-28T14:32:10.223100349Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:34:08.170845727Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:34:08.171546241Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:34:08.172279073Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:34:08.173277437Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-28T14:34:08.177554048Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=INFO ts=2020-04-28T14:34:08.174181466Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:34:08.174074387Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:34:08.17840934Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:34:08.180460689Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:34:08.181252713Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:34:08.181965403Z app=MqttExport source=clientSupport.go:69 msg=
+level=INFO ts=2020-04-28T14:34:08.180973958Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:34:08.182938677Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:34:08.184567696Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:34:08.185543927Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:34:08.186555407Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:34:08.187511901Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:34:08.188926417Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:34:33.206787305Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:34:33.207662972Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:34:33.208434551Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:34:33.214174345Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-28T14:34:33.214213172Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:34:33.214248018Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:34:33.217309148Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:34:33.219995058Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-28T14:34:33.218613565Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:34:33.221050299Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:34:33.222691779Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:34:33.223747998Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:34:33.224747894Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:34:33.225936364Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:34:33.226767955Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:34:33.227439843Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:34:33.22814153Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:34:33.229283527Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:34:33.844741851Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:34:33.846088697Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:34:33.848505604Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:34:33.849789131Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:34:33.851752884Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:34:33.872914818Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:34:33.874066898Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:34:33.875205031Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:34:34.158805189Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-28T14:34:37.895526523Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-28T14:34:37.904179365Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:34:37.904236922Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-28T14:35:44.829666692Z app=MqttExport source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:35:44.830485592Z app=MqttExport source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:35:44.831221881Z app=MqttExport source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:35:44.832159301Z app=MqttExport source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-28T14:35:44.83641464Z app=MqttExport source=clientSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-28T14:35:44.83850059Z app=MqttExport source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-28T14:35:44.832799364Z app=MqttExport source=sdk.go:831 msg="Listening for changes from registry"
+level=INFO ts=2020-04-28T14:35:44.837111115Z app=MqttExport source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-28T14:35:44.839261879Z app=MqttExport source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:35:44.842312473Z app=MqttExport source=clientSupport.go:69 msg=24111998
+level=INFO ts=2020-04-28T14:35:44.841972355Z app=MqttExport source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-28T14:35:44.843239217Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:35:44.844899162Z app=MqttExport source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:35:44.846100841Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:35:44.847071773Z app=MqttExport source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:35:44.847998971Z app=MqttExport source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:35:44.848803226Z app=MqttExport source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:35:44.849690381Z app=MqttExport source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:35:45.498540202Z app=MqttExport source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:35:45.500948816Z app=MqttExport source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:35:45.504177148Z app=MqttExport source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:35:45.505248956Z app=MqttExport source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:35:45.506735883Z app=MqttExport source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:35:45.525859857Z app=MqttExport source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:35:45.526857412Z app=MqttExport source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:35:45.527754085Z app=MqttExport source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:35:45.815123937Z app=MqttExport source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:35:50.508555939Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:35:52.772465384Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:35:52.781430163Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:35:52.782518798Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:35:55.436615652Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:35:55.443971822Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:35:55.451180134Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:35:55.46022181Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:35:56.392825369Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:35:56.401390251Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:35:56.40258008Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-28T14:35:59.138021039Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:35:59.146595105Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:35:59.147672499Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:35:59.983327576Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:35:59.991095229Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:35:59.999545761Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:00.006439377Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:00.512077508Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:01.972198613Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:01.981121612Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:36:01.982236086Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-28T14:36:05.062195053Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:05.070822364Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:36:05.071991849Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:36:09.669022429Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:09.688209548Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:10.451237359Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:10.458539293Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:10.46458333Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:10.47295572Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:10.513135557Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:14.40059529Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"aaaaa\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:14.409321979Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Error secret key\"}"
+level=ERROR ts=2020-04-28T14:36:14.410434974Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Error secret key"
+level=DEBUG ts=2020-04-28T14:36:19.992469271Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:19.999778843Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:20.006695131Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:20.015475501Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:20.523339099Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:24.405395893Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Key\" :\"develop\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:24.414424132Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:36:24.415621062Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:36:25.464645772Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:25.47176136Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:25.479479997Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:25.486823516Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:30.579610053Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:34.847606013Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"aaaaa\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:34.856435801Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"aaaaa\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-28T14:36:34.857550123Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=DEBUG ts=2020-04-28T14:36:39.676499369Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:39.695330046Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:39.99935079Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.009971641Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.018362944Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.029201181Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.47215189Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.480682817Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.488685921Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.495331043Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:40.585455286Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:49.751700972Z app=MqttExport source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"CoreData\", \"Id\" : \"1\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-28T14:36:49.760122576Z app=MqttExport source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-28T14:36:49.76090691Z app=MqttExport source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=DEBUG ts=2020-04-28T14:36:50.60153456Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:55.474509509Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:55.482904481Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:55.49068716Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:36:55.499323208Z app=MqttExport source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:36:56.121493122Z app=MqttExport source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-28T14:36:56.122852029Z app=MqttExport source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:36:56.122849946Z app=MqttExport source=sdk.go:837 msg="Exiting Listen for changes from registry"

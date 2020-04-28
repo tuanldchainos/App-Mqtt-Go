@@ -109,13 +109,20 @@ func setServiceURLList(sdk *appsdk.AppFunctionsSDK) (func(string) string, error)
 		log.Info(fmt.Sprintf("Can not take service url via registry, take url in config file: %s", err))
 	}
 
+	agentURL, err := sdk.GetServiceURLViaRegistry(SystemManagementAgentServiceKey)
+	if err != nil {
+		agentURL = sdk.GetServiceURLViaConfigFile(SystemAgentClienName)
+		log.Info(fmt.Sprintf("Can not take service url via registry, take url in config file: %s", err))
+	}
+
 	urlList := map[string]string{
-		CoreDataClientName:      coredataURL,
-		SchedulerClientName:     shedulerURL,
-		CoreCommandClientName:   commandURL,
-		MetadataClientName:      metadataURL,
-		NotificationsClientName: notificationsURL,
-		LoggingClientName:       loggerURL,
+		CoreDataServiceKey:              coredataURL,
+		SupportSchedulerServiceKey:      shedulerURL,
+		CoreCommandServiceKey:           commandURL,
+		CoreMetaDataServiceKey:          metadataURL,
+		SupportNotificationsServiceKey:  notificationsURL,
+		SupportLoggingServiceKey:        loggerURL,
+		SystemManagementAgentServiceKey: agentURL,
 	}
 
 	return func(key string) string {

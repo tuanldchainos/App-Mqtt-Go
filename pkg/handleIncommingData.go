@@ -67,6 +67,7 @@ func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.
 }
 
 func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
+
 	fmt.Println("Request receving: ", string(message.Payload()))
 	log.Info(fmt.Sprintf("Request receving: %s", string(message.Payload())))
 	var MqttRequest = report.MqttRequest{}
@@ -74,17 +75,28 @@ func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Mess
 	if err != nil {
 		log.Error(fmt.Sprintf("Exception when parse json report: %s", err))
 	}
-
-	// var dataCheck map[string]interface{}
-	// json.Unmarshal(message.Payload(), &dataCheck)
-	// if !checkDataWithKey(dataCheck, "Method") || !checkDataWithKey(dataCheck, "Service") || !checkDataWithKey(dataCheck, "Path") || !checkDataWithKey(dataCheck, "Body") || !checkDataWithKey(dataCheck, "Id") {
-	// 	log.Info(fmt.Sprintln("Unrecognize mqtt request"))
-	// 	mqttResponseFail(client, &MqttRequest, "Unrecognize mqtt request")
-	// }
 	f.requestData <- &MqttRequest
 }
 
+func mqttCommandFilter(req *report.MqttRequest) error {
+	switch req.Key {
+	case "":
+		if req.Service == CoreCommandClientName || req.Service == CoreDataClientName || req.Service == MetadataClientName || req.Service == LoggingClientName || req.Service == SystemAgentClienName || req.Service == SchedulerClientName || req.Service == NotificationsClientName {
+			return errors.New("Not have permission")
+		}
+		return nil
+	case SecretDevKey:
+		return nil
+	default:
+		return errors.New("Error secret key")
+	}
+}
+
 func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
+	err := mqttCommandFilter(req)
+	if err != nil {
+		return "", err
+	}
 	ctx := context.Background()
 	httpURL := urlList(req.Service) + req.Path
 	fmt.Println(httpURL)
@@ -109,22 +121,6 @@ func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(str
 	}
 }
 
-// func checkDataWithKey(data map[string]interface{}, key string) bool {
-// 	val, ok := data[key]
-// 	if !ok {
-// 		log.Warn(fmt.Sprintf("[Incoming listener] Incoming reading ignored. No %v found : msg=%v", key, data))
-// 		return false
-// 	}
-
-// 	switch val.(type) {
-// 	case string:
-// 		return true
-// 	default:
-// 		log.Warn(fmt.Sprintf("[Incoming listener] Incoming reading ignored. %v should be string : msg=%v", key, data))
-// 		return false
-// 	}
-// }
-
 func (f *MqttHandle) mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, msg string, responseTopicLists []string, qos int) {
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
@@ -139,7 +135,6 @@ func (f *MqttHandle) mqttResponseSuccess(client MQTT.Client, MqttRequest *report
 	}
 	fmt.Println("Response sending: ", string(Response))
 	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
-	f.wg.Done()
 }
 
 func (f *MqttHandle) mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err string, responseTopicLists []string, qos int) {
@@ -156,5 +151,4 @@ func (f *MqttHandle) mqttResponseFail(client MQTT.Client, MqttRequest *report.Mq
 	}
 	fmt.Println("Response sending: ", string(Response))
 	log.Info(fmt.Sprintf("response sending: %s", string(Response)))
-	f.wg.Done()
 }
