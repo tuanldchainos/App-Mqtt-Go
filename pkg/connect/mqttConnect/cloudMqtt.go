@@ -1,4 +1,4 @@
-package pkg
+package mqttConnect
 
 import (
 	"crypto/tls"
@@ -9,11 +9,8 @@ import (
 	"time"
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
-	"github.com/edgexfoundry/go-mod-core-contracts/clients/logger"
 	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
-
-var log logger.LoggingClient
 
 // MqttConfig struct is struct of params, required to connecting to mqtt cloud
 type MqttConfig struct {
@@ -29,20 +26,33 @@ type MqttConfig struct {
 	// MqttPersistOnError string
 }
 
-// LoadMqttConfig create config to mqtt connect
-func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
-	if sdk == nil {
-		return nil, errors.New("Invalid AppFunctionsSDK")
-	}
+type MqttConnect struct {
+	config *MqttConfig
+	sdk    *appsdk.AppFunctionsSDK
+}
 
-	log = sdk.LoggingClient
+func NewMqttConnect(sdk *appsdk.AppFunctionsSDK) *MqttConnect {
+	config := new(MqttConfig)
+	return &MqttConnect{
+		config: config,
+		sdk:    sdk,
+	}
+}
+
+// LoadMqttConfig create config to mqtt connect
+func (f *MqttConnect) LoadMqttConfig() error {
+	log := f.sdk.LoggingClient
+	if f.sdk == nil {
+		log.Error("Invalid AppFunctionsSDK")
+		return errors.New("Invalid AppFunctionsSDK")
+	}
 
 	var MqttHost, MqttPort, MqttUser, MqttPass, MqttCertData, MqttKeyData, MqttQos, MqttKeepAlive string
 	var skipCertVerify bool
 	// var persistOnError bool
 	var errSkip, errPersist error
 
-	appSettings := sdk.ApplicationSettings()
+	appSettings := f.sdk.ApplicationSettings()
 	if appSettings != nil {
 		MqttUser = getAppSetting(appSettings, MQTTUser)
 		MqttHost = getAppSetting(appSettings, MQTTHost)
@@ -50,7 +60,6 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 		MqttPass = getAppSetting(appSettings, MQTTPass)
 		MqttCertData = getAppSetting(appSettings, MQTTCertData)
 		MqttKeyData = getAppSetting(appSettings, MQTTKeyData)
-		fmt.Println(MqttKeyData)
 		MqttQos = getAppSetting(appSettings, Qos)
 		MqttKeepAlive = getAppSetting(appSettings, KeepAlive)
 		skipCertVerify, errSkip = strconv.ParseBool(getAppSetting(appSettings, SkipCertVerify))
@@ -69,7 +78,7 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 			log.Error(fmt.Sprintln("error while writing data to cer file ", err))
 		}
 
-		err = writeDataToKeyFile(MqttCertData)
+		err = writeDataToKeyFile(MqttKeyData)
 		if err != nil {
 			log.Error(fmt.Sprintln("error while writing data to key file ", err))
 		}
@@ -77,38 +86,36 @@ func LoadMqttConfig(sdk *appsdk.AppFunctionsSDK) (*MqttConfig, error) {
 		log.Error("No application-specific settings found")
 	}
 
-	config := new(MqttConfig)
-
-	config.MqttUser = MqttUser
-	config.MqttPassword = MqttPass
-	config.MqttQos, _ = strconv.Atoi(MqttQos)
-	config.MqttKeepAlive, _ = strconv.Atoi(MqttKeepAlive)
-	config.MqttHost = MqttHost
-	config.MqttPort = MqttPort
-	config.MqttCertFile = MQTTCertDir
-	config.MqttKeyFile = MQTTKeyDir
+	f.config.MqttUser = MqttUser
+	f.config.MqttPassword = MqttPass
+	f.config.MqttQos, _ = strconv.Atoi(MqttQos)
+	f.config.MqttKeepAlive, _ = strconv.Atoi(MqttKeepAlive)
+	f.config.MqttHost = MqttHost
+	f.config.MqttPort = MqttPort
+	f.config.MqttCertFile = MQTTCertDir
+	f.config.MqttKeyFile = MQTTKeyDir
 	//config.PersistOnError = persistOnError
 
 	if isSkipCertVerify(skipCertVerify) {
-		config.MqttScheme = "tcp"
-		return config, nil
+		f.config.MqttScheme = "tcp"
+	} else {
+		f.config.MqttScheme = "tls"
 	}
-	config.MqttScheme = "tls"
-	return config, nil
+	return nil
 }
 
 // CreateClient return a client, that connect to mqtt cloud successfully
-func CreateClient(config *MqttConfig) (MQTT.Client, error) {
-	log.Info(fmt.Sprintf("Create MQTT client and connection"))
+func (f *MqttConnect) CreateClient() (MQTT.Client, error) {
+	log := f.sdk.LoggingClient
 	opts := MQTT.NewClientOptions()
-	opts.AddBroker(fmt.Sprintf("%s://%s:%s", config.MqttScheme, config.MqttHost, config.MqttPort))
-	opts.SetUsername(config.MqttUser)
-	opts.SetPassword(config.MqttPassword)
-	opts.SetKeepAlive(time.Second * time.Duration(config.MqttKeepAlive))
+	opts.AddBroker(fmt.Sprintf("%s://%s:%s", f.config.MqttScheme, f.config.MqttHost, f.config.MqttPort))
+	opts.SetUsername(f.config.MqttUser)
+	opts.SetPassword(f.config.MqttPassword)
+	opts.SetKeepAlive(time.Second * time.Duration(f.config.MqttKeepAlive))
 	opts.SetAutoReconnect(true)
 
-	if config.MqttScheme == "tls" {
-		cert, err := tls.LoadX509KeyPair(config.MqttCertFile, config.MqttKeyFile)
+	if f.config.MqttScheme == "tls" {
+		cert, err := tls.LoadX509KeyPair(f.config.MqttCertFile, f.config.MqttKeyFile)
 		if err != nil {
 			log.Error("Failed loading x509 data")
 			return nil, errors.New("Can not create a mqtt client")
@@ -126,7 +133,7 @@ func CreateClient(config *MqttConfig) (MQTT.Client, error) {
 		token := client.Connect()
 		if token.Wait() && token.Error() != nil {
 			/*
-				if config.PersistOnError {
+				if f.config.PersistOnError {
 					subMessage = "persisting Event for later retry"
 				}
 			*/

@@ -61,7 +61,7 @@ Type = 'zero'
 
 [Logging]
 EnableRemote = false
-File = './logs/mqtt-Export.log'
+File = './logs/mqtt-export.log'
 
 [Binding]
 Type="messagebus"

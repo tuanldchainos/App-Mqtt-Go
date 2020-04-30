@@ -1,0 +1,1069 @@
+level=INFO ts=2020-04-28T14:45:52.838590513Z app=AppService-mqtt-export source=sdk.go:402 msg="Logger successfully initialized"
+level=INFO ts=2020-04-28T14:45:52.839487052Z app=AppService-mqtt-export source=sdk.go:511 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-28T14:45:52.840551197Z app=AppService-mqtt-export source=sdk.go:433 msg="Clients initialized"
+level=INFO ts=2020-04-28T14:45:52.841617732Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-28T14:45:52.845087101Z app=AppService-mqtt-export source=clientSupport.go:69 msg=letuan
+level=INFO ts=2020-04-28T14:45:52.842518265Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:45:52.841708543Z app=AppService-mqtt-export source=sdk.go:831 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-28T14:45:52.846393807Z app=AppService-mqtt-export source=clientSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-28T14:45:52.848569502Z app=AppService-mqtt-export source=clientSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-28T14:45:52.849516595Z app=AppService-mqtt-export source=clientSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-28T14:45:52.850458644Z app=AppService-mqtt-export source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:45:52.851342583Z app=AppService-mqtt-export source=clientSupport.go:69 msg=
+level=DEBUG ts=2020-04-28T14:45:52.85289173Z app=AppService-mqtt-export source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:45:52.854554139Z app=AppService-mqtt-export source=clientSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-28T14:45:52.855277497Z app=AppService-mqtt-export source=clientSupport.go:69 msg=true
+level=DEBUG ts=2020-04-28T14:45:52.856135638Z app=AppService-mqtt-export source=clientSupport.go:69 msg=false
+level=INFO ts=2020-04-28T14:45:52.854440269Z app=AppService-mqtt-export source=sdk.go:859 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-28T14:45:52.857657257Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-28T14:45:53.6909513Z app=AppService-mqtt-export source=sdk.go:565 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-28T14:45:53.699643008Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-28T14:45:53.702183334Z app=AppService-mqtt-export source=sdk.go:155 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-28T14:45:53.704011098Z app=AppService-mqtt-export source=sdk.go:158 msg="Mqtt Export Service"
+level=INFO ts=2020-04-28T14:45:53.707459715Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-28T14:45:53.724058041Z app=AppService-mqtt-export source=clientSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-28T14:45:53.724982623Z app=AppService-mqtt-export source=clientSupport.go:69 msg=0
+level=DEBUG ts=2020-04-28T14:45:53.725773596Z app=AppService-mqtt-export source=clientSupport.go:69 msg=Request
+level=INFO ts=2020-04-28T14:45:54.00440821Z app=AppService-mqtt-export source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=DEBUG ts=2020-04-28T14:45:55.979942857Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:45:55.987464347Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:45:55.994429069Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:45:56.000742276Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:46:00.405818104Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:46:00.413594175Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:46:00.421311907Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=DEBUG ts=2020-04-28T14:46:00.428687343Z app=AppService-mqtt-export source=runtime.go:59 msg="Processing message: 0 Transforms"
+level=INFO ts=2020-04-28T14:46:01.366193817Z app=AppService-mqtt-export source=sdk.go:171 msg="Terminating: interrupt"
+level=INFO ts=2020-04-28T14:46:01.374925264Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-28T14:46:01.375027682Z app=AppService-mqtt-export source=sdk.go:837 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-29T01:26:33.398893939Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-29T01:26:33.399867668Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-29T01:26:33.400639088Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-29T01:26:33.40141314Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-29T01:26:33.402802395Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-29T01:26:33.401659165Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-29T01:26:33.401759196Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-29T01:26:33.404540315Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-29T01:26:33.408339216Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-29T01:26:33.409429531Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-29T01:26:33.410294482Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-29T01:26:33.411246157Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-29T01:26:33.412160904Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-29T01:26:33.413060249Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-29T01:26:33.414036893Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-29T01:26:33.414939335Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-29T01:26:33.416068155Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-29T01:26:33.440408944Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-29T01:26:36.740186428Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-29T01:26:36.741245058Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-29T01:26:36.742248014Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-29T01:26:36.74301163Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-29T01:26:36.743816103Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-29T01:26:36.749851246Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-29T01:26:36.750915598Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-29T01:26:36.752691953Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-29T01:26:37.031775336Z app=AppService-mqtt-export source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-29T01:29:35.902866004Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:29:35.911939436Z app=AppService-mqtt-export source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:29:35.913051108Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:29:53.553247821Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:29:53.554705728Z app=AppService-mqtt-export source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:29:53.555932316Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:29:56.470109099Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:29:56.471636939Z app=AppService-mqtt-export source=handleIncommingData.go:154 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=INFO ts=2020-04-29T01:30:31.108041691Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-29T01:30:31.108801966Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-29T01:30:31.109590264Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-29T01:30:31.110451421Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-29T01:30:31.111474606Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-29T01:30:31.110539248Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-29T01:30:31.110551035Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-29T01:30:31.112256251Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-29T01:30:31.114573872Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-29T01:30:31.115282749Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-29T01:30:31.115949294Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-29T01:30:31.11664154Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-29T01:30:31.117421655Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-29T01:30:31.117714234Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-29T01:30:31.119030608Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-29T01:30:31.119696226Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-29T01:30:31.120545167Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-29T01:30:31.121344902Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-29T01:30:31.700089945Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-29T01:30:31.701345697Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-29T01:30:31.703741544Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-29T01:30:31.705515025Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-29T01:30:31.706958512Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=DEBUG ts=2020-04-29T01:30:31.722717991Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-29T01:30:31.723559962Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-29T01:30:31.724290474Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-29T01:30:32.016298848Z app=AppService-mqtt-export source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-29T01:30:36.465092138Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:36.466951113Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:36.468113242Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:40.76519044Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:40.813744792Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:40.815066033Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:42.997982235Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:43.006687364Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:43.007787791Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:45.568166925Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:45.577057494Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:45.578371734Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:50.069520556Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:50.078341898Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:50.079483222Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:53.10777589Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:53.116662989Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:53.117781746Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:30:58.667941986Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-29T01:30:58.669401956Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-29T01:30:58.670515098Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-29T01:31:01.981422716Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-29T01:31:01.990030701Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-29T01:31:01.99006133Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:20:26.669510847Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:20:26.670638615Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:20:26.671460261Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:20:26.673363313Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:20:26.673423007Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:20:26.673434512Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-30T01:20:26.674285444Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:20:26.685192929Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:20:26.686027447Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:20:26.687983178Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=INFO ts=2020-04-30T01:20:26.686255043Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:20:26.690040104Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:20:26.693062115Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:20:26.694360507Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:20:26.695343956Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:20:26.696293506Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:20:26.697094075Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:20:26.698273031Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:20:27.418827511Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:20:27.419734705Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:20:27.418878399Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:20:27.423028251Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:20:27.420880971Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:20:27.424628559Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=DEBUG ts=2020-04-30T01:20:27.423830738Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:20:27.425484616Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:20:27.694998724Z app=AppService-mqtt-export source=handleIncommingData.go:46 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:20:39.79401103Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:20:39.794928073Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:20:39.795730042Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:20:55.812936049Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:20:55.822360576Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:20:55.823562651Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:20:59.559114869Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:20:59.567425275Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:20:59.568339793Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:21:03.176070371Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:21:03.184576685Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:21:03.185748307Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:21:13.751907895Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"develop\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:21:13.760284251Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-30T01:21:13.76133734Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-30T01:21:45.446001406Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:21:45.446830867Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:21:45.446845189Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:23:03.073713452Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:23:03.074607576Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:23:03.075362807Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:23:03.076679451Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:23:03.076647214Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:23:03.076730874Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:23:03.078300929Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:23:03.079607316Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:23:03.081878311Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:23:03.085564289Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:23:03.086443118Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:23:03.087531958Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T01:23:03.087170498Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:23:03.090142174Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:23:03.09209197Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:23:03.093036207Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:23:03.095345793Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:23:03.096380625Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:23:03.910211606Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:23:03.911775042Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:23:03.910337978Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:23:03.914189101Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:23:03.91449715Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:23:03.919174868Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=DEBUG ts=2020-04-30T01:23:03.917981742Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:23:03.920540775Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:23:04.269870081Z app=AppService-mqtt-export source=handleIncommingData.go:46 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:23:07.310921216Z app=AppService-mqtt-export source=handleIncommingData.go:71 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:23:07.320092046Z app=AppService-mqtt-export source=handleIncommingData.go:151 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:23:07.321331162Z app=AppService-mqtt-export source=handleIncommingData.go:56 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:24:00.971000062Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:24:00.980963757Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:24:00.981002068Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:24:03.065501413Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:24:03.066792509Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:24:03.067956191Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:24:03.06911807Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:24:03.070525648Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T01:24:03.069167692Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:24:03.069305145Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:24:03.076776864Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:24:03.084082185Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=INFO ts=2020-04-30T01:24:03.08558756Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:24:03.085908152Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:24:03.087506753Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:24:03.088230776Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:24:03.089005369Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:24:03.08995547Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:24:03.091551013Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:24:03.092615524Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:24:03.093672848Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:24:03.666828211Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:24:03.666996292Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=INFO ts=2020-04-30T01:24:03.668276122Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:24:03.669543444Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:24:03.672294279Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:24:03.672370247Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:24:03.675041325Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:24:03.676574217Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:24:03.946137989Z app=AppService-mqtt-export source=handleIncommingData.go:47 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:24:07.089236714Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:24:07.098494629Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T01:24:07.099711397Z app=AppService-mqtt-export source=handleIncommingData.go:57 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T01:25:41.991302718Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"edgex-core-data\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T01:25:42.002736871Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:25:42.004006195Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:26:44.586665147Z app=AppService-mqtt-export source=handleIncommingData.go:72 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/config\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-30T01:26:44.592242735Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/config\",\"Body\":\"{\\\"Writable\\\":{\\\"DeviceUpdateLastConnected\\\":false,\\\"MetaDataCheck\\\":false,\\\"PersistData\\\":true,\\\"ServiceUpdateLastConnected\\\":false,\\\"ValidateCheck\\\":false,\\\"LogLevel\\\":\\\"INFO\\\",\\\"ChecksumAlgo\\\":\\\"\\\"},\\\"MessageQueue\\\":{\\\"Host\\\":\\\"*\\\",\\\"Port\\\":5563,\\\"Protocol\\\":\\\"tcp\\\",\\\"Type\\\":\\\"zero\\\",\\\"Topic\\\":\\\"events\\\"},\\\"Clients\\\":{\\\"Logging\\\":{\\\"Host\\\":\\\"edgex-support-logging\\\",\\\"Port\\\":48061,\\\"Protocol\\\":\\\"http\\\"},\\\"Metadata\\\":{\\\"Host\\\":\\\"edgex-core-metadata\\\",\\\"Port\\\":48081,\\\"Protocol\\\":\\\"http\\\"}},\\\"Databases\\\":{\\\"Primary\\\":{\\\"Username\\\":\\\"\\\",\\\"Password\\\":\\\"\\\",\\\"Type\\\":\\\"mongodb\\\",\\\"Timeout\\\":5000,\\\"Host\\\":\\\"edgex-mongo\\\",\\\"Port\\\":27017,\\\"Name\\\":\\\"coredata\\\"}},\\\"Logging\\\":{\\\"EnableRemote\\\":true,\\\"File\\\":\\\"/edgex/logs/edgex-core-data.log\\\"},\\\"Registry\\\":{\\\"Host\\\":\\\"edgex-core-consul\\\",\\\"Port\\\":8500,\\\"Type\\\":\\\"consul\\\"},\\\"Service\\\":{\\\"BootTimeout\\\":30000,\\\"CheckInterval\\\":\\\"10s\\\",\\\"ClientMonitor\\\":15000,\\\"Host\\\":\\\"edgex-core-data\\\",\\\"Port\\\":48080,\\\"Protocol\\\":\\\"http\\\",\\\"StartupMsg\\\":\\\"This is the Core Data Microservice\\\",\\\"MaxResultCount\\\":50000,\\\"Timeout\\\":5000},\\\"SecretStore\\\":{\\\"Host\\\":\\\"edgex-vault\\\",\\\"Port\\\":8200,\\\"Path\\\":\\\"/v1/secret/edgex/coredata/\\\",\\\"Protocol\\\":\\\"https\\\",\\\"Namespace\\\":\\\"\\\",\\\"RootCaCertPath\\\":\\\"/vault/config/pki/EdgeXFoundryCA/EdgeXFoundryCA.pem\\\",\\\"ServerName\\\":\\\"edgex-vault\\\",\\\"Authentication\\\":{\\\"AuthType\\\":\\\"X-Vault-Token\\\",\\\"AuthToken\\\":\\\"\\\"},\\\"AdditionalRetryAttempts\\\":10,\\\"RetryWaitPeriod\\\":\\\"1s\\\",\\\"TokenFile\\\":\\\"/vault/config/assets/resp-init.json\\\"},\\\"Startup\\\":{\\\"Duration\\\":30,\\\"Interval\\\":1}}\\n\"}"
+level=INFO ts=2020-04-30T01:26:44.593740023Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:28:59.141117844Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:28:59.149374257Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:28:59.149376832Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:29:01.159111977Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:29:01.159813093Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:29:01.160544513Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:29:01.16136295Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:29:01.162322489Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T01:29:01.161461893Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:29:01.161529894Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:29:01.163988416Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:29:01.167053177Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:29:01.168585008Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=INFO ts=2020-04-30T01:29:01.16892278Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:29:01.169394342Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:29:01.171246589Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:29:01.172130156Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:29:01.173064988Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:29:01.174194999Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:29:01.175117559Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:29:01.176418087Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:29:01.728440867Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:29:01.728608875Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:29:01.730771648Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:29:01.731831097Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:29:01.72969726Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T01:29:01.735149805Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:29:01.736303246Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:29:01.737789185Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:29:02.008132165Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:29:15.230966205Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:29:15.242725789Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:29:15.244031488Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:29:19.338561668Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:29:19.388384793Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:29:19.389535454Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:29:25.568264495Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:29:25.580505741Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:29:25.581830738Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:29:30.234954493Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:29:30.24548587Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:29:30.246695938Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:29:35.669394238Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:29:35.673317706Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:29:35.674371807Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:30:34.06372766Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:30:34.065440997Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:30:34.065452816Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:30:36.314203962Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:30:36.31489943Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:30:36.315695332Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:30:36.316393234Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:30:36.318389053Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T01:30:36.31644058Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:30:36.31661646Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:30:36.319292684Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:30:36.322484181Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:30:36.323277452Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=INFO ts=2020-04-30T01:30:36.323313864Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:30:36.324813342Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:30:36.327005376Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:30:36.327961435Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:30:36.329206726Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:30:36.330214024Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:30:36.331104892Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:30:36.332595536Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:30:37.01488404Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:30:37.015027204Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:30:37.017508847Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:30:37.016328486Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:30:37.018590132Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:30:37.020393766Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:30:37.021344331Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:30:37.022821867Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:30:37.286019081Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:30:43.38561314Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:30:43.397149815Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:30:43.398374421Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:30:49.464376067Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:30:49.475249733Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:30:49.47654237Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:30:57.262469956Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:30:57.274669464Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:30:57.276360948Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:31:04.984259419Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:31:04.996221083Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:31:04.997401906Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:31:16.9718545Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:31:16.980457138Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:31:16.980504297Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:32:39.620133812Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:32:39.621030356Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:32:39.621797056Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:32:39.622801279Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:32:39.622803057Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:32:39.622929106Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:32:39.623926929Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:32:39.630900745Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:32:39.631987645Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:32:39.632721053Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:32:39.633425883Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:32:39.634154036Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T01:32:39.6329811Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:32:39.634975025Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:32:39.636361446Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:32:39.637076249Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:32:39.63868165Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:32:39.639707345Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:32:40.195077896Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:32:40.195245306Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:32:40.197315178Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:32:40.198276519Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:32:40.196326035Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T01:32:40.201459026Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:32:40.203503484Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:32:40.20461383Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:32:40.485624058Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:32:48.378494694Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:32:48.389812899Z app=AppService-mqtt-export source=handleIncommingData.go:137 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:32:48.392067395Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:32:51.330866723Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:32:51.339205385Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:32:51.339213019Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:34:51.685203451Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:34:51.68598365Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:34:51.687002638Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:34:51.688316543Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:34:51.690508889Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T01:34:51.688502854Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:34:51.689124317Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:34:51.691398242Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:34:51.693224391Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:34:51.693857701Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:34:51.694645838Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:34:51.695368413Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:34:51.696539236Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:34:51.69724757Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:34:51.698046376Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=INFO ts=2020-04-30T01:34:51.696685719Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:34:51.698864906Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:34:51.700599421Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:34:52.681589488Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:34:52.682419239Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:34:52.681676142Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:34:52.684469314Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:34:52.685386736Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:34:52.684220665Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:34:52.686790848Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:34:52.687896195Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:34:52.979137858Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:35:18.918643727Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:35:18.927241896Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:35:18.927287042Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:36:10.010730166Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:36:10.011518646Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:36:10.012266471Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:36:10.013514108Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:36:10.013601962Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:36:10.013601365Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:36:10.016681214Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T01:36:10.024864155Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:36:10.025295463Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:36:10.027473977Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:36:10.02833291Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:36:10.029228559Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:36:10.030077495Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:36:10.031368485Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:36:10.032719281Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:36:10.033810823Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:36:10.034656511Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:36:10.035942637Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:36:10.607872277Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:36:10.608040816Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:36:10.610507717Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:36:10.60935823Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:36:10.611581862Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:36:10.613731725Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:36:10.615292835Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:36:10.616889182Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:36:10.897955635Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:36:20.780930077Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:36:20.78998665Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-30T01:36:20.791261302Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-30T01:36:36.530141789Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:36:36.539198654Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-30T01:36:36.540582727Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-30T01:36:45.142711296Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:36:45.151689198Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-30T01:36:45.153054892Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-30T01:36:50.967166945Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }\n"
+level=INFO ts=2020-04-30T01:36:50.968903553Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"/api/v1/ping\\\": unsupported protocol scheme \\\"\\\"\"}"
+level=ERROR ts=2020-04-30T01:36:50.970082854Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"/api/v1/ping\": unsupported protocol scheme \"\""
+level=INFO ts=2020-04-30T01:36:54.569048417Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:36:54.570620129Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:36:54.570653809Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:37:14.746756136Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:37:14.747604633Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:37:14.748411403Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:37:14.749161126Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:37:14.749191429Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:37:14.749262541Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:37:14.752515584Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:37:14.758021401Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:37:14.7590243Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:37:14.76004854Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:37:14.760790141Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T01:37:14.759903393Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:37:14.761541072Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:37:14.763017551Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:37:14.763711155Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:37:14.764501288Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:37:14.765226303Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:37:14.766180983Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:37:15.361163239Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:37:15.362345288Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:37:15.361388696Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=INFO ts=2020-04-30T01:37:15.364453642Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=DEBUG ts=2020-04-30T01:37:15.36453775Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:37:15.366649672Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:37:15.365581484Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:37:15.369075636Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:37:15.628825547Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:37:33.196082416Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:37:33.204834267Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:37:33.206309784Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:37:33.207371272Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:37:46.708547485Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:37:46.717143398Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:37:46.718729815Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:37:46.720875852Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:37:58.476704759Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"develop\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:37:58.485300514Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:37:58.486583553Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:37:58.487665595Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:38:19.986614248Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"develop\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:38:19.995273519Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:38:19.996607621Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:38:19.997678133Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:38:22.170222737Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:38:22.171657835Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:38:22.171753535Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:38:46.607189484Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:38:46.607932884Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:38:46.608652361Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:38:46.612229344Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:38:46.612312663Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:38:46.612391679Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:38:46.613605398Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:38:46.617632065Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:38:46.618411409Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:38:46.619256112Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:38:46.620107649Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:38:46.621170277Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:38:46.621910124Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:38:46.622621255Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:38:46.623356215Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:38:46.624106984Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:38:46.627769961Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T01:38:46.628331768Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:38:47.188039767Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:38:47.189378659Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:38:47.188158804Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:38:47.191299073Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:38:47.192256142Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:38:47.19148947Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:38:47.19435807Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:38:47.195700489Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:38:47.477990563Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:38:50.345440994Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:38:50.354297137Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:38:50.355913233Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:38:50.357077051Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:40:04.473964399Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:40:04.475332981Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:40:04.475332996Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:40:06.711605376Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:40:06.712505246Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:40:06.713454023Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:40:06.715152419Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T01:40:06.716267025Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:40:06.716559005Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-30T01:40:06.716750255Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:40:06.722849032Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:40:06.72415955Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:40:06.724997135Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:40:06.725948581Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:40:06.726909274Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T01:40:06.725695313Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:40:06.727843229Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:40:06.729496978Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:40:06.730223845Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:40:06.730913313Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:40:06.731746589Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:40:07.344691821Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:40:07.346139784Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:40:07.344861431Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:40:07.34826737Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:40:07.349366382Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:40:07.348443708Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:40:07.351637963Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:40:07.352894386Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:40:07.622319399Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:40:10.427368329Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: UrlList = map[string]string{\n\t\t\tCoreDataServiceKey:              coredataURL,\n\t\t\tSupportSchedulerServiceKey:      shedulerURL,\n\t\t\tCoreCommandServiceKey:           commandURL,\n\t\t\tCoreMetaDataServiceKey:          metadataURL,\n\t\t\tSupportNotificationsServiceKey:  notificationsURL,\n\t\t\tSupportLoggingServiceKey:        loggerURL,\n\t\t\tSystemManagementAgentServiceKey: agentURL,\n\t\t}"
+level=ERROR ts=2020-04-30T01:40:10.436390296Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: invalid character 'U' looking for beginning of value"
+level=INFO ts=2020-04-30T01:40:10.437864497Z app=AppService-mqtt-export source=handleIncommingData.go:153 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:40:10.43903866Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:41:06.119730893Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:41:06.128411343Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:41:06.128430107Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:41:08.39349193Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:41:08.39559189Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:41:08.396982973Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:41:08.399431523Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:41:08.40175033Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:41:08.405232302Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:41:08.406113025Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:41:08.408324128Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:41:08.410308002Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:41:08.411192071Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T01:41:08.404675411Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:41:08.400131762Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-30T01:41:08.422917719Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:41:08.427217373Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:41:08.428101938Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:41:08.429210228Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:41:08.430456523Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:41:08.435137123Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T01:41:08.980421913Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:41:08.980538658Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=INFO ts=2020-04-30T01:41:08.981808394Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:41:08.982838336Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:41:08.985202156Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:41:08.986279253Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=DEBUG ts=2020-04-30T01:41:08.985264297Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:41:08.987665901Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:41:09.253422288Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:41:29.653641203Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:41:29.654971669Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:41:29.656553461Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:41:29.657683578Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:42:13.351690733Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:42:13.353303154Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:42:13.353302233Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:42:16.409809297Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:42:16.410625108Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:42:16.411421733Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:42:16.413779481Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:42:16.415379183Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:42:16.416590426Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T01:42:16.417884157Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=INFO ts=2020-04-30T01:42:16.416725284Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T01:42:16.416778045Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T01:42:16.420911178Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=INFO ts=2020-04-30T01:42:16.423732562Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:42:16.424211729Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:42:16.425658251Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:42:16.426376849Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:42:16.427104635Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:42:16.427867913Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:42:16.428828045Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:42:16.430046048Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:42:16.991371727Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T01:42:16.992429379Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:42:16.991448505Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:42:16.993966181Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T01:42:16.994686616Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:42:16.993671056Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:42:16.996298096Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:42:16.997220514Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:42:17.272093798Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:42:33.148913474Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body"
+level=ERROR ts=2020-04-30T01:42:33.197130205Z app=AppService-mqtt-export source=handleIncommingData.go:74 msg="Exception when parse json report: unexpected end of JSON input"
+level=INFO ts=2020-04-30T01:42:33.198638073Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T01:42:33.199948714Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T01:44:23.448036562Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:44:33.46635716Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"http://edgex-core-data:48080/api/v1/ping\\\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution\"}"
+level=ERROR ts=2020-04-30T01:44:33.51473549Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"http://edgex-core-data:48080/api/v1/ping\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution"
+level=INFO ts=2020-04-30T01:49:58.112403003Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T01:49:58.121119947Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T01:49:58.121140188Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:50:00.103629078Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T01:50:00.104468835Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T01:50:00.105203399Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T01:50:00.106253493Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T01:50:00.107212114Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T01:50:00.108115868Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=INFO ts=2020-04-30T01:50:00.106471506Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T01:50:00.106506359Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-30T01:50:00.108966734Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T01:50:00.111294529Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T01:50:00.112092602Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:50:00.112963991Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T01:50:00.113726354Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:50:00.11214426Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T01:50:00.114686574Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T01:50:00.116696019Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T01:50:00.117469652Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T01:50:00.118412169Z app=AppService-mqtt-export source=cloudMqtt.go:102 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T01:50:00.690420667Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T01:50:00.69059846Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T01:50:00.692859505Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T01:50:00.691707047Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T01:50:00.694034437Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T01:50:00.696262731Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T01:50:00.69753328Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T01:50:00.698806839Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T01:50:01.025235894Z app=AppService-mqtt-export source=handleIncommingData.go:45 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T01:50:22.257463057Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:50:22.26945367Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:50:22.270698126Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:50:32.062124157Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:50:32.111924221Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:50:32.112992897Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:50:34.955497851Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:50:34.958161855Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:50:34.959272462Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:50:37.299184214Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:50:37.309425857Z app=AppService-mqtt-export source=handleIncommingData.go:136 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T01:50:37.310719268Z app=AppService-mqtt-export source=handleIncommingData.go:58 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T01:52:28.990987441Z app=AppService-mqtt-export source=handleIncommingData.go:70 msg="Request receving: { \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"\", \"Path\" : \"/api/v1/ping\", \"Body\":\"\"}"
+level=INFO ts=2020-04-30T01:52:39.050965117Z app=AppService-mqtt-export source=handleIncommingData.go:152 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"http://edgex-core-data:48080/api/v1/ping\\\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution\"}"
+level=ERROR ts=2020-04-30T01:52:39.099145986Z app=AppService-mqtt-export source=handleIncommingData.go:55 msg="Exception when handling http method: Get \"http://edgex-core-data:48080/api/v1/ping\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution"
+level=INFO ts=2020-04-30T02:27:10.096287353Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T02:27:10.097557189Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T02:27:10.097572101Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T08:18:17.99790919Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:18:17.998638854Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:18:17.999408389Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:18:18.004519375Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:18:18.007379331Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:18:18.007511278Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T08:18:18.011662114Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T08:18:18.014651143Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:18:18.015650109Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T08:18:18.016436275Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=INFO ts=2020-04-30T08:18:18.014819946Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:18:18.017337269Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:18:18.019079881Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:18:18.020004384Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T08:18:18.020885832Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T08:18:18.021952255Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T08:18:18.022799121Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T08:18:18.023856435Z app=AppService-mqtt-export source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=ERROR ts=2020-04-30T08:18:18.024901668Z app=AppService-mqtt-export source=cloudMqtt.go:124 msg="Failed loading x509 data"
+level=ERROR ts=2020-04-30T08:18:18.025823538Z app=AppService-mqtt-export source=main.go:44 msg="Failed to create MQTT client: Can not create a mqtt client\n"
+level=INFO ts=2020-04-30T08:22:19.553370255Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:22:19.554119442Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:22:19.554801645Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:22:19.555996517Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:22:19.556278678Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:22:19.556356209Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T08:22:19.557052128Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T08:22:19.559415596Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:22:19.560048714Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T08:22:19.56221487Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T08:22:19.564059086Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:22:19.565129244Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:22:19.566017607Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T08:22:19.566907628Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=INFO ts=2020-04-30T08:22:19.565117457Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:22:19.568032272Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T08:22:19.569861964Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T08:22:19.571120971Z app=AppService-mqtt-export source=cloudMqtt.go:114 msg="Create MQTT client and connection"
+level=ERROR ts=2020-04-30T08:22:19.572281841Z app=AppService-mqtt-export source=cloudMqtt.go:125 msg="Failed loading x509 data"
+level=ERROR ts=2020-04-30T08:22:19.573286856Z app=AppService-mqtt-export source=main.go:44 msg="Failed to create MQTT client: Can not create a mqtt client\n"
+level=INFO ts=2020-04-30T08:25:23.186956213Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:25:23.187772582Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:25:23.188523875Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:25:23.189689466Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:25:23.189741243Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:25:23.189771279Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T08:25:23.192614418Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=DEBUG ts=2020-04-30T08:25:23.19481936Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:25:23.195502736Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=INFO ts=2020-04-30T08:25:23.194287283Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:25:23.19636622Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T08:25:23.197864941Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:25:23.198676345Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:25:23.199688637Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T08:25:23.200552866Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T08:25:23.201292058Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T08:25:23.202133365Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T08:25:23.203331182Z app=AppService-mqtt-export source=cloudMqtt.go:114 msg="Create MQTT client and connection"
+level=ERROR ts=2020-04-30T08:25:23.206313667Z app=AppService-mqtt-export source=cloudMqtt.go:145 msg="Network Error : dial tcp: lookup tailor.cloudmqtt.com: Temporary failure in name resolution\n"
+level=INFO ts=2020-04-30T08:25:23.207128048Z app=AppService-mqtt-export source=cloudMqtt.go:146 msg="Create MQTT client and connection succesful"
+level=ERROR ts=2020-04-30T08:25:23.207936734Z app=AppService-mqtt-export source=main.go:44 msg="Failed to create MQTT client: Network Error : dial tcp: lookup tailor.cloudmqtt.com: Temporary failure in name resolution\n"
+level=INFO ts=2020-04-30T08:29:09.732335055Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:29:09.733182472Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:29:09.733971926Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:29:09.738443863Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=DEBUG ts=2020-04-30T08:29:09.739891319Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=letuan
+level=INFO ts=2020-04-30T08:29:09.738883769Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T08:29:09.739007004Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=DEBUG ts=2020-04-30T08:29:09.74113877Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:29:09.743748416Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=14640
+level=DEBUG ts=2020-04-30T08:29:09.744864304Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=24111998
+level=DEBUG ts=2020-04-30T08:29:09.745992148Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=DEBUG ts=2020-04-30T08:29:09.747133817Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=
+level=INFO ts=2020-04-30T08:29:09.745732584Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:29:09.748326465Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=DEBUG ts=2020-04-30T08:29:09.749645209Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=3600
+level=DEBUG ts=2020-04-30T08:29:09.750681162Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=true
+level=DEBUG ts=2020-04-30T08:29:09.75150284Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=false
+level=INFO ts=2020-04-30T08:29:09.752569489Z app=AppService-mqtt-export source=cloudMqtt.go:113 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T08:29:10.527015575Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=DEBUG ts=2020-04-30T08:29:10.527182056Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Response
+level=DEBUG ts=2020-04-30T08:29:10.52975359Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=0
+level=INFO ts=2020-04-30T08:29:10.528573234Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=DEBUG ts=2020-04-30T08:29:10.530843194Z app=AppService-mqtt-export source=mqttSupport.go:69 msg=Request
+level=INFO ts=2020-04-30T08:29:10.532904321Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T08:29:10.534038197Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T08:29:10.535274641Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T08:29:10.850839019Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T08:29:27.034898721Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T08:29:27.036423042Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T08:29:27.037456639Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T08:29:33.298731089Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T08:29:33.300417313Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T08:29:33.301743881Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T08:29:39.436527729Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T08:29:39.445185971Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T08:29:39.4463849Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T08:30:07.882118728Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"edgex-core-data\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"develop\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T08:30:07.894324724Z app=AppService-mqtt-export source=handleIncommingData.go:141 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"edgex-core-data\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"pong\"}"
+level=INFO ts=2020-04-30T08:30:07.89577674Z app=AppService-mqtt-export source=handleIncommingData.go:63 msg="Successfully handle request!\n"
+level=INFO ts=2020-04-30T08:30:37.797510143Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: \t{ \"Method\" : \"Get\", \"Service\": \"edgex-core-data\", \"Id\" : \"1\", \"Key\" :\"develop\", \"Path\" : \"/api/v1/ping\", \"Body\" : \"\" }"
+level=INFO ts=2020-04-30T08:30:37.801720861Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"edgex-core-data\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Get \\\"http://edgex-core-data:48080/api/v1/ping\\\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution\"}"
+level=ERROR ts=2020-04-30T08:30:37.803037991Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Get \"http://edgex-core-data:48080/api/v1/ping\": dial tcp: lookup edgex-core-data: Temporary failure in name resolution"
+level=INFO ts=2020-04-30T08:30:52.859446215Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T08:30:52.860835565Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T08:30:52.860836019Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T08:44:53.153157953Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:44:53.153903756Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:44:53.154630335Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:44:53.156629575Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:44:53.156696246Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:44:53.157283973Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T08:44:53.159566909Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=letuan
+level=DEBUG ts=2020-04-30T08:44:53.16173967Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:44:53.162621754Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=14640
+level=INFO ts=2020-04-30T08:44:53.161619554Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:44:53.163559645Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=24111998
+level=DEBUG ts=2020-04-30T08:44:53.164893839Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=
+level=DEBUG ts=2020-04-30T08:44:53.165615009Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=
+level=DEBUG ts=2020-04-30T08:44:53.166282175Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=0
+level=DEBUG ts=2020-04-30T08:44:53.166960041Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=3600
+level=DEBUG ts=2020-04-30T08:44:53.167646487Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=true
+level=DEBUG ts=2020-04-30T08:44:53.168634455Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=false
+level=INFO ts=2020-04-30T08:44:53.169816968Z app=AppService-mqtt-export source=cloudMqtt.go:111 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T08:44:53.886906244Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T08:44:53.88837336Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T08:46:07.765133967Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:46:07.765851286Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:46:07.766722047Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:46:07.767530575Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:46:07.7674818Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:46:07.767638775Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=DEBUG ts=2020-04-30T08:46:07.769307987Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=letuan
+level=DEBUG ts=2020-04-30T08:46:07.770812896Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=zaxdqdle:irRG_elje66K@tailor.cloudmqtt.com
+level=DEBUG ts=2020-04-30T08:46:07.771658759Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=14640
+level=DEBUG ts=2020-04-30T08:46:07.772343244Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=24111998
+level=DEBUG ts=2020-04-30T08:46:07.773093566Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=
+level=INFO ts=2020-04-30T08:46:07.77165522Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=DEBUG ts=2020-04-30T08:46:07.77384283Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=
+level=DEBUG ts=2020-04-30T08:46:07.775128847Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=0
+level=DEBUG ts=2020-04-30T08:46:07.775858104Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=3600
+level=DEBUG ts=2020-04-30T08:46:07.776532251Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=true
+level=DEBUG ts=2020-04-30T08:46:07.777188503Z app=AppService-mqtt-export source=cloudMqtt.go:172 msg=false
+level=INFO ts=2020-04-30T08:46:07.777975803Z app=AppService-mqtt-export source=cloudMqtt.go:111 msg="Create MQTT client and connection"
+level=INFO ts=2020-04-30T08:46:09.025454683Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T08:53:45.898573963Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:53:45.899844413Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:53:45.90150579Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:53:45.906336407Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:53:45.909537999Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T08:53:45.910181294Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:54:54.44438147Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:54:54.44511105Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:54:54.446007483Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:54:54.446745004Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:54:54.446813227Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T08:55:28.205657438Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:55:28.206493303Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:55:28.207237468Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:55:28.210788155Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T08:59:17.954367045Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T08:59:17.955219841Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T08:59:17.955964514Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T08:59:17.957016383Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:01:02.051584747Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:01:02.052353436Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:01:02.053074445Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:01:02.056807306Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:01:02.056828634Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:03:39.535720198Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:03:39.536522856Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:03:39.537395729Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:03:39.538400408Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:05:54.668854737Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:05:54.669666568Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:05:54.67039261Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:05:54.671183522Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:05:54.671784257Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:06:31.760362041Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:06:31.761108507Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:06:31.761932307Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:06:31.768525224Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:06:31.768639539Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:07:38.934574364Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:07:38.935330093Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:07:38.936182998Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:07:38.939997476Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:07:38.94006316Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:08:49.967152683Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:08:49.967939864Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:08:49.968673567Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:08:49.969423584Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:10:17.240670138Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:10:17.241405938Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:10:17.242145619Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:10:17.242982905Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:10:17.243167537Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:11:39.984496839Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:11:39.985198145Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:11:39.985929599Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:11:39.987251278Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:11:39.987519865Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:11:39.987859672Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:12:35.927906685Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:12:35.928685047Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:12:35.929500474Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:12:35.930930665Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:12:35.930960211Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:13:05.534943594Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:13:05.535908849Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:13:05.536861137Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:13:05.538563968Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:13:05.538617911Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:14:31.896557805Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:14:31.897294562Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:14:31.898054566Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:14:31.900550029Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:14:31.900533583Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:14:31.900590076Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:15:32.760345224Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:15:32.761061109Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:15:32.761780285Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:15:32.765450098Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:15:32.766447Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:16:17.258155909Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:16:17.258873988Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:16:17.259643727Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:16:17.260833631Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:16:53.073134877Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:16:53.073896569Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:16:53.074604697Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:16:53.075352245Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:16:53.075507867Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:17:51.724153836Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:17:51.724858821Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:17:51.725585957Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:17:51.729043743Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:19:19.796339808Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:19:19.797143389Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:19:19.797902725Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:19:19.799107779Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:19:19.79947243Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:19:55.578482469Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:19:55.579227419Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:19:55.58009324Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:19:55.580948553Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:19:55.581006743Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:20:09.687269594Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:20:09.69266567Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:20:09.693508834Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:20:09.694354791Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:21:12.595943378Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:21:12.59676183Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:21:12.597529268Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:21:12.59865005Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:21:56.458899103Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:21:56.459738015Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:21:56.460443565Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:21:56.461538008Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:22:49.034461318Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:22:49.035172537Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:22:49.036056889Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:22:49.036985583Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:23:24.648702245Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:23:24.649417658Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:23:24.650114929Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:23:24.655050747Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:23:24.655407508Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:24:13.657572848Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:24:13.658383937Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:24:13.659125441Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:24:13.659863047Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:24:28.277598756Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:24:28.278311326Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:24:28.27900828Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:24:28.279873929Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:24:28.279888039Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:24:28.280144281Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:24:28.293097701Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:24:29.10068381Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:24:29.10951691Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:24:29.111679735Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:24:29.112791513Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:24:29.114224933Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:25:14.755803223Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:25:14.756528299Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:25:14.757266571Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:25:14.765485034Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:25:14.765522772Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:25:14.765660364Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:25:14.769421841Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:25:15.546546777Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:25:15.555021772Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:25:15.556184926Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:25:15.556925073Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:25:15.55772268Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:26:04.999798135Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:26:05.000537964Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:26:05.001354393Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:26:05.008281929Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:26:05.009583918Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:26:05.009583931Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:26:05.014575795Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:26:05.738118676Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:26:05.739126631Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:26:05.740498663Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:26:05.741319888Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:26:05.742268864Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:26:06.050816434Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T09:26:12.14831407Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: 1"
+level=ERROR ts=2020-04-30T09:26:12.149815434Z app=AppService-mqtt-export source=handleIncommingData.go:79 msg="Exception when parse json report: json: cannot unmarshal number into Go value of type report.MqttRequest"
+level=INFO ts=2020-04-30T09:26:12.151326844Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"\",\"Id\":\"\",\"Method\":\"\",\"HttpRequest\":\"\",\"Body\":\"Unknown http method\"}"
+level=ERROR ts=2020-04-30T09:26:12.152435059Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Unknown http method"
+level=INFO ts=2020-04-30T09:26:15.235783829Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T09:26:15.244444426Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T09:26:15.244535639Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:26:45.5013559Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:26:45.502070858Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:26:45.502823144Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:26:45.505439967Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:26:45.505475882Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:27:00.185599209Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:27:00.186727704Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:27:00.187957266Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:27:00.191094263Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:27:00.191215029Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:27:00.191296668Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:27:00.214705435Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:27:02.464209549Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:27:02.465738504Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:27:02.467899505Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:27:02.469029959Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:27:02.470412961Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:27:02.776407049Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T09:27:17.218395468Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T09:27:17.227511508Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T09:27:17.228698484Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T09:27:20.660585079Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T09:27:20.669494475Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T09:27:20.670661837Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T09:27:24.301540732Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T09:27:24.310616223Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T09:27:24.311929696Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T09:27:28.092653304Z app=AppService-mqtt-export source=handleIncommingData.go:75 msg="Request receving: {\n\t\"Method\" : \"Get\",\n\t\"Service\": \"CoreData\",\n\t\"Id\" : \"1\",\n\t\"Key\" :\"\",\n\t\"Path\" : \"/api/v1/ping\",\n\t\"Body\" : \"\"\n}"
+level=INFO ts=2020-04-30T09:27:28.141306384Z app=AppService-mqtt-export source=handleIncommingData.go:158 msg="response sending: {\"Service\":\"CoreData\",\"Id\":\"1\",\"Method\":\"Get\",\"HttpRequest\":\"/api/v1/ping\",\"Body\":\"Not have permission\"}"
+level=ERROR ts=2020-04-30T09:27:28.142425735Z app=AppService-mqtt-export source=handleIncommingData.go:60 msg="Exception when handling http method: Not have permission"
+level=INFO ts=2020-04-30T09:27:39.233816607Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T09:27:39.235175019Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T09:27:39.235262951Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:28:44.577482143Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:28:44.578202866Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:28:44.578961569Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:28:44.579751818Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:28:44.579937788Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:28:44.579924809Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:28:44.585368219Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:28:45.412132257Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:28:45.420765169Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:28:45.42317384Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:28:45.424282435Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:28:45.425607411Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:28:45.710239269Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T09:28:47.589080191Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T09:28:47.597650747Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:28:47.597670989Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T09:29:39.290886216Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:29:39.291662521Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:29:39.292352284Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:29:39.2931216Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:29:39.293158389Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:29:51.458894298Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:29:51.45960924Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:29:51.460353675Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:29:51.461272708Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:30:54.1998577Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:30:54.200929236Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:30:54.202210954Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:30:54.203645581Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:30:54.204635581Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:30:54.204644245Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:30:54.21267258Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:30:55.104376609Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:30:55.113285258Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:30:55.115552372Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:30:55.11668605Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:30:55.118042235Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:30:55.423056066Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T09:31:03.771024102Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T09:31:03.779718954Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:31:03.77981663Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"
+level=INFO ts=2020-04-30T09:31:14.076628488Z app=AppService-mqtt-export source=sdk.go:403 msg="Logger successfully initialized"
+level=INFO ts=2020-04-30T09:31:14.077568179Z app=AppService-mqtt-export source=sdk.go:512 version=0.0.0 msg="Skipping core service version compatibility check for SDK Beta version or running in debugger"
+level=INFO ts=2020-04-30T09:31:14.078386366Z app=AppService-mqtt-export source=sdk.go:434 msg="Clients initialized"
+level=INFO ts=2020-04-30T09:31:14.086542922Z app=AppService-mqtt-export source=server.go:276 msg="Registering standard routes..."
+level=INFO ts=2020-04-30T09:31:14.086591199Z app=AppService-mqtt-export source=sdk.go:845 msg="Listening for changes from registry"
+level=INFO ts=2020-04-30T09:31:14.086694479Z app=AppService-mqtt-export source=telemetry.go:79 msg="Starting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:31:14.09658687Z app=AppService-mqtt-export source=sdk.go:873 msg="Writable configuration has been updated from Registry"
+level=INFO ts=2020-04-30T09:31:14.784527864Z app=AppService-mqtt-export source=sdk.go:566 msg="MessageBus trigger selected"
+level=INFO ts=2020-04-30T09:31:14.786098988Z app=AppService-mqtt-export source=messaging.go:46 msg="Initializing Message Bus Trigger. Subscribing to topic: events on port 5563 , Publish Topic:  on port 5564"
+level=INFO ts=2020-04-30T09:31:14.788334338Z app=AppService-mqtt-export source=sdk.go:156 msg="StoreAndForward disabled. Not running retry loop."
+level=INFO ts=2020-04-30T09:31:14.789470123Z app=AppService-mqtt-export source=sdk.go:159 msg="Mqtt Export Service"
+level=INFO ts=2020-04-30T09:31:14.791010124Z app=AppService-mqtt-export source=server.go:346 msg="Starting HTTP Web Server on port :45000"
+level=INFO ts=2020-04-30T09:31:15.102496728Z app=AppService-mqtt-export source=handleIncommingData.go:50 msg="[Incoming listener] Start incoming data listening."
+level=INFO ts=2020-04-30T09:31:17.869458874Z app=AppService-mqtt-export source=sdk.go:172 msg="Terminating: interrupt"
+level=INFO ts=2020-04-30T09:31:17.870438699Z app=AppService-mqtt-export source=telemetry.go:84 msg="Exiting CPU Usage Average loop"
+level=INFO ts=2020-04-30T09:31:17.870457661Z app=AppService-mqtt-export source=sdk.go:851 msg="Exiting Listen for changes from registry"

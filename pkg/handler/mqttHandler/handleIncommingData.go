@@ -1,4 +1,4 @@
-package pkg
+package mqttHandler
 
 import (
 	"context"
@@ -7,6 +7,8 @@ import (
 	"fmt"
 	"sync"
 
+	"App-Mqtt-Go/pkg"
+	"App-Mqtt-Go/pkg/connect/mqttConnect"
 	"App-Mqtt-Go/report"
 
 	"github.com/edgexfoundry/go-mod-core-contracts/clients"
@@ -18,26 +20,27 @@ import (
 
 // MqttHandle struct is a object, that have responsibility for handling a mqtt request
 type MqttHandle struct {
+	sdk         *appsdk.AppFunctionsSDK
 	requestData chan *report.MqttRequest
 	wg          sync.WaitGroup
 	mux         sync.Mutex
 }
 
 // NewMqttHandle return a handle mqtt struct
-func NewMqttHandle() *MqttHandle {
+func NewMqttHandle(sdk *appsdk.AppFunctionsSDK) *MqttHandle {
 	var requestData = make(chan *report.MqttRequest)
 	return &MqttHandle{
 		requestData: requestData,
+		sdk:         sdk,
 	}
 }
 
 // StartListeningMqttIncoming listen mqtt report incomming and handle request
-func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.AppFunctionsSDK) {
-	urlList := GetServiceURLList(sdk)
-	responseTopicLists := GetResponseTopicList(sdk)
-	Qos := GetMqttQos(sdk)
-	requestTopic := GetRequestTopic(sdk)
-
+func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client) {
+	log := f.sdk.LoggingClient
+	responseTopicLists := mqttConnect.GetResponseTopicList(f.sdk)
+	Qos := mqttConnect.GetMqttQos(f.sdk)
+	requestTopic := mqttConnect.GetRequestTopic(f.sdk)
 	f.wg.Add(2)
 	go func() {
 		token := client.Subscribe(requestTopic, byte(Qos), f.onHandleMqttIncomming)
@@ -51,7 +54,7 @@ func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.
 			select {
 			case MqttRequest := <-f.requestData:
 				f.mux.Lock()
-				msg, err := f.createHTTPRequest(MqttRequest, urlList)
+				msg, err := f.createHTTPRequest(MqttRequest)
 				if err != nil {
 					f.mqttResponseFail(client, MqttRequest, err.Error(), responseTopicLists, Qos)
 					log.Error(fmt.Sprintf("Exception when handling http method: %s", err))
@@ -67,7 +70,7 @@ func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client, sdk *appsdk.
 }
 
 func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Message) {
-
+	log := f.sdk.LoggingClient
 	fmt.Println("Request receving: ", string(message.Payload()))
 	log.Info(fmt.Sprintf("Request receving: %s", string(message.Payload())))
 	var MqttRequest = report.MqttRequest{}
@@ -81,25 +84,25 @@ func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Mess
 func mqttCommandFilter(req *report.MqttRequest) error {
 	switch req.Key {
 	case "":
-		if req.Service == CoreCommandClientName || req.Service == CoreDataClientName || req.Service == MetadataClientName || req.Service == LoggingClientName || req.Service == SystemAgentClienName || req.Service == SchedulerClientName || req.Service == NotificationsClientName {
+		if req.Service == pkg.CoreCommandClientName || req.Service == pkg.CoreDataClientName || req.Service == pkg.MetadataClientName || req.Service == pkg.LoggingClientName || req.Service == pkg.SystemAgentClienName || req.Service == pkg.SchedulerClientName || req.Service == pkg.NotificationsClientName {
 			return errors.New("Not have permission")
 		}
 		return nil
-	case SecretDevKey:
+	case pkg.SecretDevKey:
 		return nil
 	default:
 		return errors.New("Error secret key")
 	}
 }
 
-func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(string) string) (string, error) {
+func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest) (string, error) {
 	err := mqttCommandFilter(req)
 	if err != nil {
 		return "", err
 	}
 	ctx := context.Background()
-	httpURL := urlList(req.Service) + req.Path
-	fmt.Println(httpURL)
+	httpURL := pkg.UrlList[req.Service] + req.Path
+
 	switch req.Method {
 	case "Get":
 		res, err := clients.GetRequestWithURL(ctx, httpURL)
@@ -108,12 +111,12 @@ func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(str
 		res, err := clients.PostJSONRequestWithURL(ctx, httpURL, req.Body)
 		return res, err
 	case "Put":
-		urlPre := local.New(urlList(req.Service))
+		urlPre := local.New(pkg.UrlList[req.Service])
 		putReqBody, _ := json.Marshal(req.Body)
 		res, err := clients.PutRequest(ctx, req.Path, putReqBody, urlPre)
 		return res, err
 	case "Delete":
-		urlPre := local.New(urlList(req.Service))
+		urlPre := local.New(pkg.UrlList[req.Service])
 		err := clients.DeleteRequest(ctx, req.Path, urlPre)
 		return "", err
 	default:
@@ -122,6 +125,7 @@ func (f *MqttHandle) createHTTPRequest(req *report.MqttRequest, urlList func(str
 }
 
 func (f *MqttHandle) mqttResponseSuccess(client MQTT.Client, MqttRequest *report.MqttRequest, msg string, responseTopicLists []string, qos int) {
+	log := f.sdk.LoggingClient
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
 	EdgeXResponse.Method = (*MqttRequest).Service
@@ -138,6 +142,7 @@ func (f *MqttHandle) mqttResponseSuccess(client MQTT.Client, MqttRequest *report
 }
 
 func (f *MqttHandle) mqttResponseFail(client MQTT.Client, MqttRequest *report.MqttRequest, err string, responseTopicLists []string, qos int) {
+	log := f.sdk.LoggingClient
 	var EdgeXResponse report.EdgeXResponse
 	EdgeXResponse.Service = (*MqttRequest).Service
 	EdgeXResponse.Method = (*MqttRequest).Method

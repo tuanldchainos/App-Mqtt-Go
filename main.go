@@ -5,12 +5,14 @@ import (
 	"os"
 
 	"App-Mqtt-Go/pkg"
+	"App-Mqtt-Go/pkg/connect/mqttConnect"
+	"App-Mqtt-Go/pkg/handler/mqttHandler"
 
 	"github.com/tuanldchainos/app-functions-sdk-go/appsdk"
 )
 
 const (
-	serviceKey = "MqttExport"
+	serviceKey = "AppService-mqtt-export"
 )
 
 func main() {
@@ -26,19 +28,24 @@ func main() {
 		os.Exit(-1)
 	}
 
-	config, err := pkg.LoadMqttConfig(edgexSdk)
+	go pkg.SetServiceURIList(edgexSdk)
+	go pkg.UpdateServiceURI(edgexSdk)
+
+	MqttConnect := mqttConnect.NewMqttConnect(edgexSdk)
+
+	err := MqttConnect.LoadMqttConfig()
 	if err != nil {
 		edgexSdk.LoggingClient.Error(fmt.Sprintf("Failed to load MQTT configurations: %v\n", err))
 		os.Exit(-1)
 	}
 
-	client, err := pkg.CreateClient(config)
+	MqttClient, err := MqttConnect.CreateClient()
 	if err != nil {
 		edgexSdk.LoggingClient.Error(fmt.Sprintf("Failed to create MQTT client: %v\n", err))
 		os.Exit(-1)
 	}
 
-	go pkg.NewMqttHandle().StartListeningMqttIncoming(client, edgexSdk)
+	go mqttHandler.NewMqttHandle(edgexSdk).StartListeningMqttIncoming(MqttClient)
 	err = edgexSdk.MakeItRun()
 	if err != nil {
 		edgexSdk.LoggingClient.Error("MakeItRun returned error: ", err.Error())
@@ -46,8 +53,8 @@ func main() {
 	}
 
 	defer func() {
-		if client.IsConnected() {
-			client.Disconnect(5000)
+		if MqttClient.IsConnected() {
+			MqttClient.Disconnect(5000)
 		}
 	}()
 
