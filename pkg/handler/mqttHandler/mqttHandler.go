@@ -8,7 +8,6 @@ import (
 	"sync"
 
 	"App-Mqtt-Go/pkg"
-	"App-Mqtt-Go/pkg/connect/mqttConnect"
 	"App-Mqtt-Go/report"
 
 	"github.com/edgexfoundry/go-mod-core-contracts/clients"
@@ -38,9 +37,9 @@ func NewMqttHandle(sdk *appsdk.AppFunctionsSDK) *MqttHandle {
 // StartListeningMqttIncoming listen mqtt report incomming and handle request
 func (f *MqttHandle) StartListeningMqttIncoming(client MQTT.Client) {
 	log := f.sdk.LoggingClient
-	responseTopicLists := mqttConnect.GetResponseTopicList(f.sdk)
-	Qos := mqttConnect.GetMqttQos(f.sdk)
-	requestTopic := mqttConnect.GetRequestTopic(f.sdk)
+	responseTopicLists := GetResponseTopicList(f.sdk)
+	Qos := GetMqttQos(f.sdk)
+	requestTopic := GetRequestTopic(f.sdk)
 	f.wg.Add(2)
 	go func() {
 		token := client.Subscribe(requestTopic, byte(Qos), f.onHandleMqttIncomming)
@@ -84,7 +83,7 @@ func (f *MqttHandle) onHandleMqttIncomming(client MQTT.Client, message MQTT.Mess
 func mqttCommandFilter(req *report.MqttRequest) error {
 	switch req.Key {
 	case "":
-		if req.Service == pkg.CoreCommandClientName || req.Service == pkg.CoreDataClientName || req.Service == pkg.MetadataClientName || req.Service == pkg.LoggingClientName || req.Service == pkg.SystemAgentClienName || req.Service == pkg.SchedulerClientName || req.Service == pkg.NotificationsClientName {
+		if req.Service == pkg.CoreCommandServiceKey || req.Service == pkg.CoreDataServiceKey || req.Service == pkg.CoreMetaDataServiceKey || req.Service == pkg.SupportLoggingServiceKey || req.Service == pkg.SystemManagementAgentServiceKey || req.Service == pkg.SupportSchedulerServiceKey || req.Service == pkg.SupportNotificationsServiceKey {
 			return errors.New("Not have permission")
 		}
 		return nil

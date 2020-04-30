@@ -54,17 +54,17 @@ func (f *MqttConnect) LoadMqttConfig() error {
 
 	appSettings := f.sdk.ApplicationSettings()
 	if appSettings != nil {
-		MqttUser = getAppSetting(appSettings, MQTTUser)
-		MqttHost = getAppSetting(appSettings, MQTTHost)
-		MqttPort = getAppSetting(appSettings, MQTTPort)
-		MqttPass = getAppSetting(appSettings, MQTTPass)
-		MqttCertData = getAppSetting(appSettings, MQTTCertData)
-		MqttKeyData = getAppSetting(appSettings, MQTTKeyData)
-		MqttQos = getAppSetting(appSettings, Qos)
-		MqttKeepAlive = getAppSetting(appSettings, KeepAlive)
-		skipCertVerify, errSkip = strconv.ParseBool(getAppSetting(appSettings, SkipCertVerify))
-		// persistOnError, errPersist = strconv.ParseBool(getAppSetting(appSettings, PersistOnError))
-		_, errPersist = strconv.ParseBool(getAppSetting(appSettings, PersistOnError))
+		MqttUser = f.getAppSetting(appSettings, MQTTUser)
+		MqttHost = f.getAppSetting(appSettings, MQTTHost)
+		MqttPort = f.getAppSetting(appSettings, MQTTPort)
+		MqttPass = f.getAppSetting(appSettings, MQTTPass)
+		MqttCertData = f.getAppSetting(appSettings, MQTTCertData)
+		MqttKeyData = f.getAppSetting(appSettings, MQTTKeyData)
+		MqttQos = f.getAppSetting(appSettings, Qos)
+		MqttKeepAlive = f.getAppSetting(appSettings, KeepAlive)
+		skipCertVerify, errSkip = strconv.ParseBool(f.getAppSetting(appSettings, SkipCertVerify))
+		// persistOnError, errPersist = strconv.ParseBool(f.getAppSetting(appSettings, PersistOnError))
+		_, errPersist = strconv.ParseBool(f.getAppSetting(appSettings, PersistOnError))
 
 		if errSkip != nil {
 			log.Error("Unable to parse " + SkipCertVerify + " value")
@@ -144,6 +144,18 @@ func (f *MqttConnect) CreateClient() (MQTT.Client, error) {
 	}
 
 	return client, nil
+}
+
+func (f *MqttConnect) getAppSetting(setting map[string]string, name string) string {
+	log := f.sdk.LoggingClient
+	value, ok := setting[name]
+
+	if ok {
+		log.Debug(value)
+		return value
+	}
+	log.Error(fmt.Sprintf("ApplicationName application setting %s not found", name))
+	return ""
 }
 
 func isSkipCertVerify(SkipCertVerify bool) bool {

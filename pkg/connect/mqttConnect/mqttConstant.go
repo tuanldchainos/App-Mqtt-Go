@@ -14,6 +14,4 @@ const (
 	PersistOnError = "PersistOnError"
 	MQTTCertDir    = "./certs/user.client.crt"
 	MQTTKeyDir     = "./certs/user.client.key"
-	RequestTopic   = "RequestTopic"
-	ResponseTopic  = "ResponseTopic"
 )
