@@ -13,10 +13,10 @@ func (f *gHandler) NewGeneralHandler(sdk *appsdk.AppFunctionsSDK) *gHandler {
 }
 
 func (f *gHandler) StartListeningGeneralIncoming() {
-	f.onHandleMqttIncomming()
+	f.onHanderGeneralIncomming()
 }
 
-func (f *gHandler) onHandleMqttIncomming() {
+func (f *gHandler) onHanderGeneralIncomming() {
 	var success bool
 	if success {
 		f.gResponseSuccess()
